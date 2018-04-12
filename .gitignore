@@ -1,3 +1,4 @@
 /mixcore/GUI/compiled/FS/*.ufs
 /mixcore/GUI/compiled/logs/*.txt
+/mixcore/.vs/MixProject/v14/.suo
 *.dat
