@@ -1,0 +1,6 @@
+E:\GPO\mixcore\TuneMethods\MixBagging\obj\Debug\MixBagging.csprojResolveAssemblyReference.cache
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\MixBagging.dll.config
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\MixBagging.dll
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\MixBagging.pdb
+E:\GPO\mixcore\TuneMethods\MixBagging\obj\Debug\MixBagging.dll
+E:\GPO\mixcore\TuneMethods\MixBagging\obj\Debug\MixBagging.pdb
