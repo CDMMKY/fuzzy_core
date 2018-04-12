@@ -17,9 +17,16 @@ namespace FuzzySystem.PittsburghClassifier.LearnAlgorithm
         {
             result = Classify;
             Init(conf);
-            Console.WriteLine("Mixed Bagging: ");
-            Console.WriteLine("Обуч: " + Math.Round(result.ClassifyLearnSamplesBagging(result.RulesDatabaseSet), 2));
-            Console.WriteLine("Тест: " + Math.Round(result.ClassifyTestSamplesBagging(result.RulesDatabaseSet), 2));
+            switch (voteType)
+            {
+                case 0:
+                    {
+                        Console.WriteLine("Bagging: ");
+                        Console.WriteLine("Обуч: " + Math.Round(result.ClassifyLearnSamplesBagging(result.RulesDatabaseSet), 2));
+                        Console.WriteLine("Тест: " + Math.Round(result.ClassifyTestSamplesBagging(result.RulesDatabaseSet), 2));
+                        break;
+                    }
+            }
             return result;
         }
         public override List<FuzzySystemRelisedList.TypeSystem> SupportedFS
@@ -54,10 +61,7 @@ namespace FuzzySystem.PittsburghClassifier.LearnAlgorithm
         public virtual void Init(ILearnAlgorithmConf Conf)
         {
             Config = Conf as MBConf;
-            if(Config.Тип_голосования == MBConf.voteType.Обычное)
-            {
-                voteType = 0;
-            }
+            voteType = (int)Config.Тип_голосования;
         }
     }
 }
