@@ -1,0 +1,5 @@
+E:\GPO\mixcore\MatrixEvalution\bin\x64\Debug\MatrixEvalution.dll
+E:\GPO\mixcore\MatrixEvalution\bin\x64\Debug\MatrixEvalution.pdb
+E:\GPO\mixcore\MatrixEvalution\obj\x64\Debug\MatrixEvalution.csprojResolveAssemblyReference.cache
+E:\GPO\mixcore\MatrixEvalution\obj\x64\Debug\MatrixEvalution.dll
+E:\GPO\mixcore\MatrixEvalution\obj\x64\Debug\MatrixEvalution.pdb

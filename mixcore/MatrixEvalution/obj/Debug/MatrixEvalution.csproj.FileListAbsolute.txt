@@ -1,0 +1,9 @@
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\MatrixEvalution\bin\Debug\MatrixEvalution.dll
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\MatrixEvalution\bin\Debug\MatrixEvalution.pdb
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\MatrixEvalution\obj\Debug\MatrixEvalution.dll
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\MatrixEvalution\obj\Debug\MatrixEvalution.pdb
+E:\GPO\mixcore\MatrixEvalution\bin\Debug\MatrixEvalution.dll
+E:\GPO\mixcore\MatrixEvalution\bin\Debug\MatrixEvalution.pdb
+E:\GPO\mixcore\MatrixEvalution\obj\Debug\MatrixEvalution.dll
+E:\GPO\mixcore\MatrixEvalution\obj\Debug\MatrixEvalution.pdb
+E:\GPO\mixcore\MatrixEvalution\obj\Debug\MatrixEvalution.csprojResolveAssemblyReference.cache

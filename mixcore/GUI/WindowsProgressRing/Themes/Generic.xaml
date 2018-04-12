@@ -1,0 +1,10 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:WindowsProgressRing">
+
+    <ResourceDictionary.MergedDictionaries>
+        <!-- INCLUDE ALL GENERAL STYLES HERE -->
+        <ResourceDictionary Source="/WindowsProgressRing;component/Themes/WindowsProgressRingStyle.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+</ResourceDictionary>

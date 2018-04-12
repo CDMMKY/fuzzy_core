@@ -1,0 +1,4 @@
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\KddStats.dll
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\KddStats.pdb
+E:\GPO\mixcore\TuneMethods\KddStats\obj\x64\Debug\KddStats.dll
+E:\GPO\mixcore\TuneMethods\KddStats\obj\x64\Debug\KddStats.pdb

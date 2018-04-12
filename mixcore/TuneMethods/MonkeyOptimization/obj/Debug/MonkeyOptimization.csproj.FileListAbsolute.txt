@@ -1,0 +1,12 @@
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\GUI\Compiled\Methods\Tune\MonkeyOptimization.dll.config
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\GUI\Compiled\Methods\Tune\MonkeyOptimization.dll
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\GUI\Compiled\Methods\Tune\MonkeyOptimization.pdb
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\TuneMethods\MonkeyOptimization\obj\Debug\MonkeyOptimization.dll
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\TuneMethods\MonkeyOptimization\obj\Debug\MonkeyOptimization.pdb
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\TuneMethods\MonkeyOptimization\obj\Debug\MonkeyOptimization.csprojResolveAssemblyReference.cache
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\MonkeyOptimization.dll.config
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\MonkeyOptimization.dll
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\MonkeyOptimization.pdb
+E:\GPO\mixcore\TuneMethods\MonkeyOptimization\obj\Debug\MonkeyOptimization.dll
+E:\GPO\mixcore\TuneMethods\MonkeyOptimization\obj\Debug\MonkeyOptimization.pdb
+E:\GPO\mixcore\TuneMethods\MonkeyOptimization\obj\Debug\MonkeyOptimization.csprojResolveAssemblyReference.cache

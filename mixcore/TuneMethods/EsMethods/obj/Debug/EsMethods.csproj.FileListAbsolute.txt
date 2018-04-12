@@ -1,0 +1,12 @@
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\GUI\Compiled\Methods\Tune\EsMethods.dll.config
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\GUI\Compiled\Methods\Tune\EsMethods.dll
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\GUI\Compiled\Methods\Tune\EsMethods.pdb
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\TuneMethods\EsMethods\obj\Debug\EsMethods.csprojResolveAssemblyReference.cache
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\TuneMethods\EsMethods\obj\Debug\EsMethods.dll
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\TuneMethods\EsMethods\obj\Debug\EsMethods.pdb
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\EsMethods.dll.config
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\EsMethods.dll
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\EsMethods.pdb
+E:\GPO\mixcore\TuneMethods\EsMethods\obj\Debug\EsMethods.csprojResolveAssemblyReference.cache
+E:\GPO\mixcore\TuneMethods\EsMethods\obj\Debug\EsMethods.dll
+E:\GPO\mixcore\TuneMethods\EsMethods\obj\Debug\EsMethods.pdb

@@ -1,0 +1,12 @@
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\GUI\Compiled\Methods\Tune\MBA_project.dll.config
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\GUI\Compiled\Methods\Tune\MBA_project.dll
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\GUI\Compiled\Methods\Tune\MBA_project.pdb
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\TuneMethods\MBA_project\obj\Debug\MBAMethods.csprojResolveAssemblyReference.cache
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\TuneMethods\MBA_project\obj\Debug\MBA_project.dll
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\TuneMethods\MBA_project\obj\Debug\MBA_project.pdb
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\MBA_project.dll.config
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\MBA_project.dll
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\MBA_project.pdb
+E:\GPO\mixcore\TuneMethods\MBA_project\obj\Debug\MBA_project.dll
+E:\GPO\mixcore\TuneMethods\MBA_project\obj\Debug\MBA_project.pdb
+E:\GPO\mixcore\TuneMethods\MBA_project\obj\Debug\MBAMethods.csprojResolveAssemblyReference.cache

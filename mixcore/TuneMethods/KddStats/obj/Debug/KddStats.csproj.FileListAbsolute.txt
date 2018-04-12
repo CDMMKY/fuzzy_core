@@ -1,0 +1,10 @@
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\GUI\Compiled\Methods\Tune\KddStats.dll
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\GUI\Compiled\Methods\Tune\KddStats.pdb
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\TuneMethods\KddStats\obj\Debug\KddStats.dll
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\TuneMethods\KddStats\obj\Debug\KddStats.pdb
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\TuneMethods\KddStats\obj\Debug\KddStats.csprojResolveAssemblyReference.cache
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\KddStats.dll
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\KddStats.pdb
+E:\GPO\mixcore\TuneMethods\KddStats\obj\Debug\KddStats.dll
+E:\GPO\mixcore\TuneMethods\KddStats\obj\Debug\KddStats.pdb
+E:\GPO\mixcore\TuneMethods\KddStats\obj\Debug\KddStats.csprojResolveAssemblyReference.cache

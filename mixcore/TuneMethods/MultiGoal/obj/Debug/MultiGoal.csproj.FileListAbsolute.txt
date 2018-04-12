@@ -1,0 +1,16 @@
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\GUI\Compiled\Methods\Tune\MultiGoal.dll.config
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\GUI\Compiled\Methods\Tune\MultiGoal.dll
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\GUI\Compiled\Methods\Tune\MultiGoal.pdb
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\TuneMethods\MultiGoal\obj\Debug\MultiGoal.csprojResolveAssemblyReference.cache
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\TuneMethods\MultiGoal\obj\Debug\FuzzySystem.FuzzyAbstract.learn_algorithm.Result_F.resources
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\TuneMethods\MultiGoal\obj\Debug\MultiGoal.csproj.GenerateResource.Cache
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\TuneMethods\MultiGoal\obj\Debug\MultiGoal.dll
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\TuneMethods\MultiGoal\obj\Debug\MultiGoal.pdb
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\MultiGoal.dll.config
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\MultiGoal.dll
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\MultiGoal.pdb
+E:\GPO\mixcore\TuneMethods\MultiGoal\obj\Debug\MultiGoal.csprojResolveAssemblyReference.cache
+E:\GPO\mixcore\TuneMethods\MultiGoal\obj\Debug\FuzzySystem.FuzzyAbstract.learn_algorithm.Result_F.resources
+E:\GPO\mixcore\TuneMethods\MultiGoal\obj\Debug\MultiGoal.csproj.GenerateResource.Cache
+E:\GPO\mixcore\TuneMethods\MultiGoal\obj\Debug\MultiGoal.dll
+E:\GPO\mixcore\TuneMethods\MultiGoal\obj\Debug\MultiGoal.pdb

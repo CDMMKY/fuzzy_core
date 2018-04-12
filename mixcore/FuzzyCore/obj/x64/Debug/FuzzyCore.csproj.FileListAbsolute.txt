@@ -1,0 +1,10 @@
+E:\GPO\mixcore\FuzzyCore\bin\x64\Debug\FuzzyCore.dll.config
+E:\GPO\mixcore\FuzzyCore\bin\x64\Debug\FuzzyCore.dll
+E:\GPO\mixcore\FuzzyCore\bin\x64\Debug\FuzzyCore.pdb
+E:\GPO\mixcore\FuzzyCore\bin\x64\Debug\ConfigPropertyGridUtils.dll
+E:\GPO\mixcore\FuzzyCore\bin\x64\Debug\MatrixEvalution.dll
+E:\GPO\mixcore\FuzzyCore\bin\x64\Debug\ConfigPropertyGridUtils.pdb
+E:\GPO\mixcore\FuzzyCore\bin\x64\Debug\MatrixEvalution.pdb
+E:\GPO\mixcore\FuzzyCore\obj\x64\Debug\FuzzyCore.csprojResolveAssemblyReference.cache
+E:\GPO\mixcore\FuzzyCore\obj\x64\Debug\FuzzyCore.dll
+E:\GPO\mixcore\FuzzyCore\obj\x64\Debug\FuzzyCore.pdb

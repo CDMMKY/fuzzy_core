@@ -1,0 +1,16 @@
+E:\GPO\mixcore\Tools\DrawMeMultuGoal\bin\x64\Debug\DrawMeMultuGoal.exe.config
+E:\GPO\mixcore\Tools\DrawMeMultuGoal\bin\x64\Debug\DrawMeMultuGoal.exe
+E:\GPO\mixcore\Tools\DrawMeMultuGoal\bin\x64\Debug\DrawMeMultuGoal.pdb
+E:\GPO\mixcore\Tools\DrawMeMultuGoal\bin\x64\Debug\FuzzyCore.dll
+E:\GPO\mixcore\Tools\DrawMeMultuGoal\bin\x64\Debug\MatrixEvalution.dll
+E:\GPO\mixcore\Tools\DrawMeMultuGoal\bin\x64\Debug\ConfigPropertyGridUtils.dll
+E:\GPO\mixcore\Tools\DrawMeMultuGoal\bin\x64\Debug\FuzzyCore.pdb
+E:\GPO\mixcore\Tools\DrawMeMultuGoal\bin\x64\Debug\MatrixEvalution.pdb
+E:\GPO\mixcore\Tools\DrawMeMultuGoal\bin\x64\Debug\ConfigPropertyGridUtils.pdb
+E:\GPO\mixcore\Tools\DrawMeMultuGoal\obj\x64\Debug\DrawMeMultuGoal.csprojResolveAssemblyReference.cache
+E:\GPO\mixcore\Tools\DrawMeMultuGoal\obj\x64\Debug\DrawMeMultuGoal.MainF.resources
+E:\GPO\mixcore\Tools\DrawMeMultuGoal\obj\x64\Debug\DrawMeMultuGoal.Properties.Resources.resources
+E:\GPO\mixcore\Tools\DrawMeMultuGoal\obj\x64\Debug\DrawMeMultuGoal.csproj.GenerateResource.Cache
+E:\GPO\mixcore\Tools\DrawMeMultuGoal\obj\x64\Debug\DrawMeMultuGoal.exe
+E:\GPO\mixcore\Tools\DrawMeMultuGoal\obj\x64\Debug\DrawMeMultuGoal.pdb
+E:\GPO\mixcore\Tools\DrawMeMultuGoal\bin\x64\Debug\FuzzyCore.xml

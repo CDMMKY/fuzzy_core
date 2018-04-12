@@ -1,0 +1,5 @@
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\UnionAndUnCrossTermsMethods.dll.config
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\UnionAndUnCrossTermsMethods.dll
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\UnionAndUnCrossTermsMethods.pdb
+E:\GPO\mixcore\TuneMethods\UnionAndUnCrossTermsMethods\obj\x64\Debug\UnionAndUnCrossTermsMethods.dll
+E:\GPO\mixcore\TuneMethods\UnionAndUnCrossTermsMethods\obj\x64\Debug\UnionAndUnCrossTermsMethods.pdb

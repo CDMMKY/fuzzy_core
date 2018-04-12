@@ -1,0 +1,12 @@
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\GUI\Compiled\Methods\Init\ShrinkInit.dll.config
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\GUI\Compiled\Methods\Init\ShrinkInit.dll
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\GUI\Compiled\Methods\Init\ShrinkInit.pdb
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\InitMethods\ShrinkInit\obj\Debug\ShrinkInitMethods.csprojResolveAssemblyReference.cache
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\InitMethods\ShrinkInit\obj\Debug\ShrinkInit.dll
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\InitMethods\ShrinkInit\obj\Debug\ShrinkInit.pdb
+E:\GPO\mixcore\GUI\Compiled\Methods\Init\ShrinkInit.dll.config
+E:\GPO\mixcore\GUI\Compiled\Methods\Init\ShrinkInit.dll
+E:\GPO\mixcore\GUI\Compiled\Methods\Init\ShrinkInit.pdb
+E:\GPO\mixcore\InitMethods\ShrinkInit\obj\Debug\ShrinkInit.dll
+E:\GPO\mixcore\InitMethods\ShrinkInit\obj\Debug\ShrinkInit.pdb
+E:\GPO\mixcore\InitMethods\ShrinkInit\obj\Debug\ShrinkInitMethods.csprojResolveAssemblyReference.cache

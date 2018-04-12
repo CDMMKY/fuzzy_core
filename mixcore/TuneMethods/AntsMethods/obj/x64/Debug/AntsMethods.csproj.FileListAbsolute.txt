@@ -1,0 +1,6 @@
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\AntsMethods.dll.config
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\AntsMethods.dll
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\AntsMethods.pdb
+E:\GPO\mixcore\TuneMethods\AntsMethods\obj\x64\Debug\AntsMethods.csprojResolveAssemblyReference.cache
+E:\GPO\mixcore\TuneMethods\AntsMethods\obj\x64\Debug\AntsMethods.dll
+E:\GPO\mixcore\TuneMethods\AntsMethods\obj\x64\Debug\AntsMethods.pdb

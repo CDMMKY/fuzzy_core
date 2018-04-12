@@ -1,0 +1,6 @@
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\PSOMethods.dll.config
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\PSOMethods.dll
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\PSOMethods.pdb
+E:\GPO\mixcore\TuneMethods\PSOMethods\obj\x64\Debug\PSOMethods.csprojResolveAssemblyReference.cache
+E:\GPO\mixcore\TuneMethods\PSOMethods\obj\x64\Debug\PSOMethods.dll
+E:\GPO\mixcore\TuneMethods\PSOMethods\obj\x64\Debug\PSOMethods.pdb

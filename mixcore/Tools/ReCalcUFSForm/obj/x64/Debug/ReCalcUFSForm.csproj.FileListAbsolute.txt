@@ -1,0 +1,17 @@
+E:\GPO\mixcore\Tools\ReCalcUFSForm\bin\x64\Debug\ReCalcUFSForm.exe.config
+E:\GPO\mixcore\Tools\ReCalcUFSForm\bin\x64\Debug\ReCalcUFSForm.exe
+E:\GPO\mixcore\Tools\ReCalcUFSForm\bin\x64\Debug\ReCalcUFSForm.pdb
+E:\GPO\mixcore\Tools\ReCalcUFSForm\bin\x64\Debug\FuzzyCore.dll
+E:\GPO\mixcore\Tools\ReCalcUFSForm\bin\x64\Debug\XLSAndTextFilesTools.dll
+E:\GPO\mixcore\Tools\ReCalcUFSForm\bin\x64\Debug\MatrixEvalution.dll
+E:\GPO\mixcore\Tools\ReCalcUFSForm\bin\x64\Debug\ConfigPropertyGridUtils.dll
+E:\GPO\mixcore\Tools\ReCalcUFSForm\bin\x64\Debug\FuzzyCore.pdb
+E:\GPO\mixcore\Tools\ReCalcUFSForm\bin\x64\Debug\XLSAndTextFilesTools.pdb
+E:\GPO\mixcore\Tools\ReCalcUFSForm\bin\x64\Debug\MatrixEvalution.pdb
+E:\GPO\mixcore\Tools\ReCalcUFSForm\bin\x64\Debug\ConfigPropertyGridUtils.pdb
+E:\GPO\mixcore\Tools\ReCalcUFSForm\obj\x64\Debug\ReCalcUFSForm.csprojResolveAssemblyReference.cache
+E:\GPO\mixcore\Tools\ReCalcUFSForm\obj\x64\Debug\ReCalcUFSForm.MainF.resources
+E:\GPO\mixcore\Tools\ReCalcUFSForm\obj\x64\Debug\ReCalcUFSForm.Properties.Resources.resources
+E:\GPO\mixcore\Tools\ReCalcUFSForm\obj\x64\Debug\ReCalcUFSForm.csproj.GenerateResource.Cache
+E:\GPO\mixcore\Tools\ReCalcUFSForm\obj\x64\Debug\ReCalcUFSForm.exe
+E:\GPO\mixcore\Tools\ReCalcUFSForm\obj\x64\Debug\ReCalcUFSForm.pdb

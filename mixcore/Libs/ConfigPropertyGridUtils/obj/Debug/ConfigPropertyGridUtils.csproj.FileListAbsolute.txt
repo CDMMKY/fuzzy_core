@@ -1,0 +1,9 @@
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\Libs\ConfigPropertyGridUtils\bin\Debug\ConfigPropertyGridUtils.dll
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\Libs\ConfigPropertyGridUtils\bin\Debug\ConfigPropertyGridUtils.pdb
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\Libs\ConfigPropertyGridUtils\obj\Debug\ConfigPropertyGridUtils.dll
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\Libs\ConfigPropertyGridUtils\obj\Debug\ConfigPropertyGridUtils.pdb
+E:\GPO\mixcore\Libs\ConfigPropertyGridUtils\bin\Debug\ConfigPropertyGridUtils.dll
+E:\GPO\mixcore\Libs\ConfigPropertyGridUtils\bin\Debug\ConfigPropertyGridUtils.pdb
+E:\GPO\mixcore\Libs\ConfigPropertyGridUtils\obj\Debug\ConfigPropertyGridUtils.dll
+E:\GPO\mixcore\Libs\ConfigPropertyGridUtils\obj\Debug\ConfigPropertyGridUtils.pdb
+E:\GPO\mixcore\Libs\ConfigPropertyGridUtils\obj\Debug\ConfigPropertyGridUtils.csprojResolveAssemblyReference.cache

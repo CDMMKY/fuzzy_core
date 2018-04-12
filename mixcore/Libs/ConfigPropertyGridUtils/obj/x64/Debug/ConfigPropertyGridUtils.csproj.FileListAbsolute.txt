@@ -1,0 +1,4 @@
+E:\GPO\mixcore\Libs\ConfigPropertyGridUtils\bin\x64\Debug\ConfigPropertyGridUtils.dll
+E:\GPO\mixcore\Libs\ConfigPropertyGridUtils\bin\x64\Debug\ConfigPropertyGridUtils.pdb
+E:\GPO\mixcore\Libs\ConfigPropertyGridUtils\obj\x64\Debug\ConfigPropertyGridUtils.dll
+E:\GPO\mixcore\Libs\ConfigPropertyGridUtils\obj\x64\Debug\ConfigPropertyGridUtils.pdb

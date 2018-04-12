@@ -1,0 +1,12 @@
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\GUI\Compiled\Methods\Tune\GeneticAlgorithmTune.dll.config
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\GUI\Compiled\Methods\Tune\GeneticAlgorithmTune.dll
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\GUI\Compiled\Methods\Tune\GeneticAlgorithmTune.pdb
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\TuneMethods\GeneticAlgorithmTune\obj\Debug\GeneticAlgorithmTune.dll
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\TuneMethods\GeneticAlgorithmTune\obj\Debug\GeneticAlgorithmTune.pdb
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\TuneMethods\GeneticAlgorithmTune\obj\Debug\GeneticAlgorithmTune.csprojResolveAssemblyReference.cache
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\GeneticAlgorithmTune.dll.config
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\GeneticAlgorithmTune.dll
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\GeneticAlgorithmTune.pdb
+E:\GPO\mixcore\TuneMethods\GeneticAlgorithmTune\obj\Debug\GeneticAlgorithmTune.dll
+E:\GPO\mixcore\TuneMethods\GeneticAlgorithmTune\obj\Debug\GeneticAlgorithmTune.pdb
+E:\GPO\mixcore\TuneMethods\GeneticAlgorithmTune\obj\Debug\GeneticAlgorithmTune.csprojResolveAssemblyReference.cache

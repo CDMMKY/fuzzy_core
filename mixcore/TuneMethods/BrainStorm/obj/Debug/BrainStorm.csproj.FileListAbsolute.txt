@@ -1,0 +1,55 @@
+D:\ГПО\Ядро\mixcore-NewOptions-68f8a02fafb6b7515ac96e6ddb8523320c20d957\Mix_core\GUI\FormsBoth\bin\Release\Methods\Tune\BrainStorm.dll.config
+D:\ГПО\Ядро\mixcore-NewOptions-68f8a02fafb6b7515ac96e6ddb8523320c20d957\Mix_core\GUI\FormsBoth\bin\Release\Methods\Tune\BrainStorm.dll
+D:\ГПО\Ядро\mixcore-NewOptions-68f8a02fafb6b7515ac96e6ddb8523320c20d957\Mix_core\GUI\FormsBoth\bin\Release\Methods\Tune\BrainStorm.pdb
+D:\ГПО\Ядро\mixcore-NewOptions-68f8a02fafb6b7515ac96e6ddb8523320c20d957\Mix_core\BrainStorm\obj\Debug\BrainStorm.csprojResolveAssemblyReference.cache
+D:\ГПО\Ядро\mixcore-NewOptions-68f8a02fafb6b7515ac96e6ddb8523320c20d957\Mix_core\BrainStorm\obj\Debug\BrainStorm.dll
+D:\ГПО\Ядро\mixcore-NewOptions-68f8a02fafb6b7515ac96e6ddb8523320c20d957\Mix_core\BrainStorm\obj\Debug\BrainStorm.pdb
+D:\ГПО\Ядро\mixcore\Mix_core\GUI\FormsBoth\bin\Release\Methods\Tune\BrainStorm.dll.config
+D:\ГПО\Ядро\mixcore\Mix_core\GUI\FormsBoth\bin\Release\Methods\Tune\BrainStorm.dll
+D:\ГПО\Ядро\mixcore\Mix_core\GUI\FormsBoth\bin\Release\Methods\Tune\BrainStorm.pdb
+D:\ГПО\Ядро\mixcore\Mix_core\BrainStorm\obj\Debug\BrainStorm.dll
+D:\ГПО\Ядро\mixcore\Mix_core\BrainStorm\obj\Debug\BrainStorm.pdb
+D:\ГПО\Ядро\mixcore\Mix_core\GUI\Compiled\Methods\Tune\BrainStorm.dll.config
+D:\ГПО\Ядро\mixcore\Mix_core\GUI\Compiled\Methods\Tune\BrainStorm.dll
+D:\ГПО\Ядро\mixcore\Mix_core\GUI\Compiled\Methods\Tune\BrainStorm.pdb
+D:\ГПО\Ядро\mixcore\Mix_core\BrainStorm\obj\Debug\BrainStorm.Properties.Resources.resources
+D:\ГПО\Ядро\mixcore\Mix_core\BrainStorm\obj\Debug\BrainStorm.csproj.GenerateResource.Cache
+D:\ГПО\Ядро\mixcore\Mix_core\BrainStorm\obj\Debug\BrainStorm.csprojResolveAssemblyReference.cache
+F:\ГПО\Ядро\mixcore\Mix_core\GUI\Compiled\Methods\Tune\BrainStorm.dll.config
+F:\ГПО\Ядро\mixcore\Mix_core\GUI\Compiled\Methods\Tune\BrainStorm.dll
+F:\ГПО\Ядро\mixcore\Mix_core\GUI\Compiled\Methods\Tune\BrainStorm.pdb
+F:\ГПО\Ядро\mixcore\Mix_core\BrainStorm\obj\Debug\BrainStorm.csprojResolveAssemblyReference.cache
+F:\ГПО\Ядро\mixcore\Mix_core\BrainStorm\obj\Debug\BrainStorm.Properties.Resources.resources
+F:\ГПО\Ядро\mixcore\Mix_core\BrainStorm\obj\Debug\BrainStorm.csproj.GenerateResource.Cache
+F:\ГПО\Ядро\mixcore\Mix_core\BrainStorm\obj\Debug\BrainStorm.dll
+F:\ГПО\Ядро\mixcore\Mix_core\BrainStorm\obj\Debug\BrainStorm.pdb
+F:\ГПО\mixcore-master-4453eff7a0d1a8fa215c7fe17d68147801176a81\GUI\Compiled\Methods\Tune\BrainStorm.dll.config
+F:\ГПО\mixcore-master-4453eff7a0d1a8fa215c7fe17d68147801176a81\GUI\Compiled\Methods\Tune\BrainStorm.dll
+F:\ГПО\mixcore-master-4453eff7a0d1a8fa215c7fe17d68147801176a81\GUI\Compiled\Methods\Tune\BrainStorm.pdb
+C:\Users\ilove\Desktop\ГПО\Ядро\mixcore\Mix_core\BrainStorm\obj\Debug\BrainStorm.Properties.Resources.resources
+C:\Users\ilove\Desktop\ГПО\Ядро\mixcore\Mix_core\BrainStorm\obj\Debug\BrainStorm.csproj.GenerateResource.Cache
+C:\Users\ilove\Desktop\ГПО\Ядро\mixcore\Mix_core\BrainStorm\obj\Debug\BrainStorm.dll
+C:\Users\ilove\Desktop\ГПО\Ядро\mixcore\Mix_core\BrainStorm\obj\Debug\BrainStorm.pdb
+C:\Users\ilove\Desktop\ГПО\mixcore-master-4453eff7a0d1a8fa215c7fe17d68147801176a81\GUI\Compiled\Methods\Tune\BrainStorm.dll.config
+C:\Users\ilove\Desktop\ГПО\mixcore-master-4453eff7a0d1a8fa215c7fe17d68147801176a81\GUI\Compiled\Methods\Tune\BrainStorm.dll
+C:\Users\ilove\Desktop\ГПО\mixcore-master-4453eff7a0d1a8fa215c7fe17d68147801176a81\GUI\Compiled\Methods\Tune\BrainStorm.pdb
+C:\Users\ilove\Desktop\ГПО\Ядро\mixcore\Mix_core\BrainStorm\obj\Debug\BrainStorm.csprojResolveAssemblyReference.cache
+E:\mixcore-master-4453eff7a0d1a8fa215c7fe17d68147801176a81\GUI\Compiled\Methods\Tune\BrainStorm.dll.config
+E:\mixcore-master-4453eff7a0d1a8fa215c7fe17d68147801176a81\GUI\Compiled\Methods\Tune\BrainStorm.dll
+E:\mixcore-master-4453eff7a0d1a8fa215c7fe17d68147801176a81\GUI\Compiled\Methods\Tune\BrainStorm.pdb
+E:\GPO\mixcore\TuneMethods\BrainStorm\obj\Debug\BrainStorm.csprojResolveAssemblyReference.cache
+E:\GPO\mixcore\TuneMethods\BrainStorm\obj\Debug\BrainStorm.Properties.Resources.resources
+E:\GPO\mixcore\TuneMethods\BrainStorm\obj\Debug\BrainStorm.csproj.GenerateResource.Cache
+E:\GPO\mixcore\TuneMethods\BrainStorm\obj\Debug\BrainStorm.dll
+E:\GPO\mixcore\TuneMethods\BrainStorm\obj\Debug\BrainStorm.pdb
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\BrainStorm.dll.config
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\BrainStorm.dll
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\BrainStorm.pdb
+C:\Users\ilove\Downloads\Telegram Desktop\mixcore\GUI\Compiled\Methods\Tune\BrainStorm.dll.config
+C:\Users\ilove\Downloads\Telegram Desktop\mixcore\GUI\Compiled\Methods\Tune\BrainStorm.dll
+C:\Users\ilove\Downloads\Telegram Desktop\mixcore\GUI\Compiled\Methods\Tune\BrainStorm.pdb
+C:\Users\ilove\Downloads\Telegram Desktop\mixcore\TuneMethods\BrainStorm\obj\Debug\BrainStorm.csprojResolveAssemblyReference.cache
+C:\Users\ilove\Downloads\Telegram Desktop\mixcore\TuneMethods\BrainStorm\obj\Debug\BrainStorm.Properties.Resources.resources
+C:\Users\ilove\Downloads\Telegram Desktop\mixcore\TuneMethods\BrainStorm\obj\Debug\BrainStorm.csproj.GenerateResource.Cache
+C:\Users\ilove\Downloads\Telegram Desktop\mixcore\TuneMethods\BrainStorm\obj\Debug\BrainStorm.dll
+C:\Users\ilove\Downloads\Telegram Desktop\mixcore\TuneMethods\BrainStorm\obj\Debug\BrainStorm.pdb

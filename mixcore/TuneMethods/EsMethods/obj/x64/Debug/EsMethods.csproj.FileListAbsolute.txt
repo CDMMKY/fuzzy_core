@@ -1,0 +1,5 @@
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\EsMethods.dll.config
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\EsMethods.dll
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\EsMethods.pdb
+E:\GPO\mixcore\TuneMethods\EsMethods\obj\x64\Debug\EsMethods.dll
+E:\GPO\mixcore\TuneMethods\EsMethods\obj\x64\Debug\EsMethods.pdb

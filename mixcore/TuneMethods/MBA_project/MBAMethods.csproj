@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{951EF0EF-C8CB-4C3E-83FB-238ABC3663D2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MBA_project</RootNamespace>
+    <AssemblyName>MBA_project</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\GUI\Compiled\Methods\Tune\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\GUI\FormsBoth\bin\Release\Methods\Tune\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Approx\Hooke_Jeeves_approx.cs" />
+    <Compile Include="Approx\MBA_approx.cs" />
+    <Compile Include="Approx\Approx_discret.cs" />
+    <Compile Include="Approx\Takagi_discret.cs" />
+    <Compile Include="Base\Param.cs" />
+    <Compile Include="Classifier\Hooke-Jeeves_classifier.cs" />
+    <Compile Include="Classifier\MBA_claccifier.cs" />
+    <Compile Include="Classifier\Classifier_discret.cs" />
+    <Compile Include="Classifier_discret_random.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\SettingsMBA.cs" />
+    <Compile Include="Properties\SettingsMBA.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>SettingsMBA.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Approx\Takagi_approx.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\FuzzyCore\FuzzyCore.csproj">
+      <Project>{B766A838-A952-4EF7-881F-158AE452FF40}</Project>
+      <Name>FuzzyCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Libs\PluralFormsAndGaussRandoms\PuralFormsAndGaussRandom.csproj">
+      <Project>{0ECF0B34-295E-4DAE-8C1F-AC560D16E076}</Project>
+      <Name>PuralFormsAndGaussRandom</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LSMAndDevariationMethods\DevariationsMethods.csproj">
+      <Project>{8710c054-7a7e-454c-be1d-cd373580a2ce}</Project>
+      <Name>DevariationsMethods</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Properties\SettingsMBA.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>SettingsMBA.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

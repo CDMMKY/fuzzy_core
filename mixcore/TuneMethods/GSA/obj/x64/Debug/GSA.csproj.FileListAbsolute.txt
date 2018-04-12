@@ -1,0 +1,5 @@
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\GSA.dll.config
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\GSA.dll
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\GSA.pdb
+E:\GPO\mixcore\TuneMethods\GSA\obj\x64\Debug\GSA.dll
+E:\GPO\mixcore\TuneMethods\GSA\obj\x64\Debug\GSA.pdb

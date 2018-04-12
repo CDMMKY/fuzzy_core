@@ -1,0 +1,10 @@
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\CMD\TestJavaInputParams\bin\Debug\TestJavaInputParams.exe.config
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\CMD\TestJavaInputParams\bin\Debug\TestJavaInputParams.exe
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\CMD\TestJavaInputParams\bin\Debug\TestJavaInputParams.pdb
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\CMD\TestJavaInputParams\obj\Debug\TestJavaInputParams.exe
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\CMD\TestJavaInputParams\obj\Debug\TestJavaInputParams.pdb
+E:\GPO\mixcore\CMD\TestJavaInputParams\bin\Debug\TestJavaInputParams.exe.config
+E:\GPO\mixcore\CMD\TestJavaInputParams\bin\Debug\TestJavaInputParams.exe
+E:\GPO\mixcore\CMD\TestJavaInputParams\bin\Debug\TestJavaInputParams.pdb
+E:\GPO\mixcore\CMD\TestJavaInputParams\obj\Debug\TestJavaInputParams.exe
+E:\GPO\mixcore\CMD\TestJavaInputParams\obj\Debug\TestJavaInputParams.pdb

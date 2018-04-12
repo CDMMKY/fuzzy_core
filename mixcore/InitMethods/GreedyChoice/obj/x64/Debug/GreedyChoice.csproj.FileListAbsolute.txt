@@ -1,0 +1,6 @@
+E:\GPO\mixcore\GUI\Compiled\Methods\Init\GreedyChoice.dll.config
+E:\GPO\mixcore\GUI\Compiled\Methods\Init\GreedyChoice.dll
+E:\GPO\mixcore\GUI\Compiled\Methods\Init\GreedyChoice.pdb
+E:\GPO\mixcore\InitMethods\GreedyChoice\obj\x64\Debug\GreedyChoice.csprojResolveAssemblyReference.cache
+E:\GPO\mixcore\InitMethods\GreedyChoice\obj\x64\Debug\GreedyChoice.dll
+E:\GPO\mixcore\InitMethods\GreedyChoice\obj\x64\Debug\GreedyChoice.pdb

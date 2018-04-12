@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{50E4995A-A58B-4651-86D9-8196668D3DF1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HybrideWrappers</RootNamespace>
+    <AssemblyName>HybrideWrappers</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\GUI\Compiled\Methods\Tune\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\GUI\FormsBoth\bin\Release\Methods\Tune\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\GUI\Compiled\Methods\Tune\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>..\..\GUI\Compiled\Methods\Tune\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Approx\HybrideOcean.cs" />
+    <Compile Include="Configs\HybrideOceanConfig.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Classifier\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\FuzzyCore\FuzzyCore.csproj">
+      <Project>{B766A838-A952-4EF7-881F-158AE452FF40}</Project>
+      <Name>FuzzyCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Libs\ConfigPropertyGridUtils\ConfigPropertyGridUtils.csproj">
+      <Project>{711d48b6-582b-459e-9483-d7c91c5a15e7}</Project>
+      <Name>ConfigPropertyGridUtils</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AntsMethods\AntsMethods.csproj">
+      <Project>{91642B1B-38E6-402A-BFD0-5874F47446EE}</Project>
+      <Name>AntsMethods</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BeesMethods\BeesMethods.csproj">
+      <Project>{9D53CCB9-CB14-43CE-BEAD-D3DC16757076}</Project>
+      <Name>BeesMethods</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EsMethods\EsMethods.csproj">
+      <Project>{20EC6B81-0747-4659-B07F-EA9B21985A30}</Project>
+      <Name>EsMethods</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GeneticAlgorithmTune\GeneticAlgorithmTune.csproj">
+      <Project>{9793DE91-27D9-41EA-8AC1-4A7F461675E8}</Project>
+      <Name>GeneticAlgorithmTune</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PSOMethods\PSOMethods.csproj">
+      <Project>{2A009A4F-48E6-43F0-9F1D-2F751A9A2645}</Project>
+      <Name>PSOMethods</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,6 @@
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\ShrinkMethods.dll.config
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\ShrinkMethods.dll
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\ShrinkMethods.pdb
+E:\GPO\mixcore\TuneMethods\ShrinkMethods\obj\x64\Debug\ShrinkMethods.csprojResolveAssemblyReference.cache
+E:\GPO\mixcore\TuneMethods\ShrinkMethods\obj\x64\Debug\ShrinkMethods.dll
+E:\GPO\mixcore\TuneMethods\ShrinkMethods\obj\x64\Debug\ShrinkMethods.pdb

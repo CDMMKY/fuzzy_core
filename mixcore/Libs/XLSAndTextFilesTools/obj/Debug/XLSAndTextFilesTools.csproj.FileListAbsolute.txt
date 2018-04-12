@@ -1,0 +1,13 @@
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\Libs\XLSAndTextFilesTools\bin\Debug\XLSAndTextFilesTools.dll
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\Libs\XLSAndTextFilesTools\bin\Debug\XLSAndTextFilesTools.pdb
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\Libs\XLSAndTextFilesTools\obj\Debug\XLSAndTextFilesTools.Properties.Resources.resources
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\Libs\XLSAndTextFilesTools\obj\Debug\XLSAndTextFilesTools.csproj.GenerateResource.Cache
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\Libs\XLSAndTextFilesTools\obj\Debug\XLSAndTextFilesTools.dll
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\Libs\XLSAndTextFilesTools\obj\Debug\XLSAndTextFilesTools.pdb
+E:\GPO\mixcore\Libs\XLSAndTextFilesTools\bin\Debug\XLSAndTextFilesTools.dll
+E:\GPO\mixcore\Libs\XLSAndTextFilesTools\bin\Debug\XLSAndTextFilesTools.pdb
+E:\GPO\mixcore\Libs\XLSAndTextFilesTools\obj\Debug\XLSAndTextFilesTools.Properties.Resources.resources
+E:\GPO\mixcore\Libs\XLSAndTextFilesTools\obj\Debug\XLSAndTextFilesTools.csproj.GenerateResource.Cache
+E:\GPO\mixcore\Libs\XLSAndTextFilesTools\obj\Debug\XLSAndTextFilesTools.dll
+E:\GPO\mixcore\Libs\XLSAndTextFilesTools\obj\Debug\XLSAndTextFilesTools.pdb
+E:\GPO\mixcore\Libs\XLSAndTextFilesTools\obj\Debug\XLSAndTextFilesTools.csprojResolveAssemblyReference.cache

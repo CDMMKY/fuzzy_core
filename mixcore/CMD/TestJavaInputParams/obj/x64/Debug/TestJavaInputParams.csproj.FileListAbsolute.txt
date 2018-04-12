@@ -1,0 +1,5 @@
+E:\GPO\mixcore\CMD\TestJavaInputParams\bin\x64\TestJavaInputParams.exe.config
+E:\GPO\mixcore\CMD\TestJavaInputParams\bin\x64\TestJavaInputParams.exe
+E:\GPO\mixcore\CMD\TestJavaInputParams\bin\x64\TestJavaInputParams.pdb
+E:\GPO\mixcore\CMD\TestJavaInputParams\obj\x64\Debug\TestJavaInputParams.exe
+E:\GPO\mixcore\CMD\TestJavaInputParams\obj\x64\Debug\TestJavaInputParams.pdb

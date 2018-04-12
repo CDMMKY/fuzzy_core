@@ -1,0 +1,10 @@
+C:\Users\Igor\Source\Repos\mixcore\InitMethods\KLI\obj\Debug\KLI.csprojResolveAssemblyReference.cache
+C:\Users\Igor\Source\Repos\mixcore\GUI\Compiled\Methods\Init\KLI.dll
+C:\Users\Igor\Source\Repos\mixcore\GUI\Compiled\Methods\Init\KLI.pdb
+C:\Users\Igor\Source\Repos\mixcore\InitMethods\KLI\obj\Debug\KLI.dll
+C:\Users\Igor\Source\Repos\mixcore\InitMethods\KLI\obj\Debug\KLI.pdb
+E:\GPO\mixcore\InitMethods\KLI\obj\Debug\KLI.csprojResolveAssemblyReference.cache
+E:\GPO\mixcore\InitMethods\KLI\obj\Debug\KLI.dll
+E:\GPO\mixcore\InitMethods\KLI\obj\Debug\KLI.pdb
+E:\GPO\mixcore\GUI\Compiled\Methods\Init\KLI.dll
+E:\GPO\mixcore\GUI\Compiled\Methods\Init\KLI.pdb

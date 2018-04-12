@@ -1,0 +1,5 @@
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\Cuckoo.dll.config
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\Cuckoo.dll
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\Cuckoo.pdb
+E:\GPO\mixcore\TuneMethods\Cuckoo\obj\x64\Debug\Cuckoo.dll
+E:\GPO\mixcore\TuneMethods\Cuckoo\obj\x64\Debug\Cuckoo.pdb

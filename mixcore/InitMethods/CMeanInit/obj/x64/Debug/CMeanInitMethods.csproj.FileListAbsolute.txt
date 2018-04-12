@@ -1,0 +1,6 @@
+E:\GPO\mixcore\GUI\Compiled\Methods\Init\CMeanInit.dll.config
+E:\GPO\mixcore\GUI\Compiled\Methods\Init\CMeanInit.dll
+E:\GPO\mixcore\GUI\Compiled\Methods\Init\CMeanInit.pdb
+E:\GPO\mixcore\InitMethods\CMeanInit\obj\x64\Debug\CMeanInitMethods.csprojResolveAssemblyReference.cache
+E:\GPO\mixcore\InitMethods\CMeanInit\obj\x64\Debug\CMeanInit.dll
+E:\GPO\mixcore\InitMethods\CMeanInit\obj\x64\Debug\CMeanInit.pdb

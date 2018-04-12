@@ -1,0 +1,5 @@
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\HybrideWrappers.dll
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\HybrideWrappers.pdb
+E:\GPO\mixcore\TuneMethods\HybrideWrappers\obj\x64\Debug\HybrideWrappers.csprojResolveAssemblyReference.cache
+E:\GPO\mixcore\TuneMethods\HybrideWrappers\obj\x64\Debug\HybrideWrappers.dll
+E:\GPO\mixcore\TuneMethods\HybrideWrappers\obj\x64\Debug\HybrideWrappers.pdb

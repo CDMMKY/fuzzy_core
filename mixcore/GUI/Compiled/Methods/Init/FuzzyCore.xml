@@ -1,0 +1,557 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FuzzyCore</name>
+    </assembly>
+    <members>
+        <member name="T:FuzzySystem.FuzzyAbstract.conf.Extention">
+            <summary>
+            Статический класс для помощи в написании реализации функции loadParams, для любого из конфигурационных файлов
+            </summary>
+        </member>
+        <member name="M:FuzzySystem.FuzzyAbstract.conf.Extention.getParamValueInt(System.String[],System.String)">
+            <summary>
+            Метод для получения целочисленого значения параметра из строки параметров с указанным именем
+            </summary>
+            <param name="Source">Строки со всеми параметрами алгоритма</param>
+            <param name="NameParam">Имя параметра, чьё значение необходимо извлечь из строки</param>
+            <returns></returns>
+        </member>
+        <member name="M:FuzzySystem.FuzzyAbstract.conf.Extention.getParamValueBool(System.String[],System.String)">
+            <summary>
+            Метод для получения логического значения параметра из строки параметров с указанным именем
+            </summary>
+            <param name="Source">Строки со всеми параметрами алгоритма</param>
+            <param name="NameParam">Имя параметра, чьё значение необходимо извлечь из строки</param>
+            <returns></returns>
+        </member>
+        <member name="M:FuzzySystem.FuzzyAbstract.conf.Extention.getParamValueDouble(System.String[],System.String)">
+            <summary>
+            Метод для получения вещественного значения параметра из строки параметров с указанным именем
+            </summary>
+            <param name="Source">Строки со всеми параметрами алгоритма</param>
+            <param name="NameParam">Имя параметра, чьё значение необходимо извлечь из строки</param>
+            <returns></returns>
+        </member>
+        <member name="M:FuzzySystem.FuzzyAbstract.conf.Extention.getParamValueString(System.String[],System.String)">
+            <summary>
+            Метод для получения строкового значения параметра из строки параметров с указанным именем
+            </summary>
+            <param name="Source">Строки со всеми параметрами алгоритма</param>
+            <param name="NameParam">Имя параметра, чьё значение необходимо извлечь из строки</param>
+            <returns></returns>
+        </member>
+        <member name="T:FuzzySystem.FuzzyAbstract.conf.IGeneratorConf">
+            <summary>
+            Интерфейс для всех классов-конфигураторов для алгоритмов генерации
+            </summary>
+        </member>
+        <member name="T:FuzzySystem.FuzzyAbstract.conf.ILearnAlgorithmConf">
+            <summary>
+            Интерфейс для всех классов-конфигураторов для алгоритмов оптимизации
+            </summary>
+        </member>
+        <member name="T:FuzzySystem.FuzzyAbstract.conf.IBaseConf">
+            <summary>
+            Основа для всех классов-конфигураторов
+            </summary>
+        </member>
+        <member name="M:FuzzySystem.FuzzyAbstract.conf.IBaseConf.Init(System.Int32)">
+            <summary>
+            Метод инициализации, вызывается до показа формы с содержимым класса, служит для корректного расчета максимального и минимального значения некоторых параметров
+            </summary>
+            <param name="countFeatures">Количество входных параметров в обучающей выборке данных</param>
+        </member>
+        <member name="M:FuzzySystem.FuzzyAbstract.conf.IBaseConf.loadParams(System.String)">
+            <summary>
+            Метод загрузки параметров алгоритма из строки, как правило при запуске оптимизации из консоли.
+            </summary>
+            <param name="param">Строрка параметров поддерживаемая алгоритмов вида ИмяПараметра=Значение параметра</param>
+        </member>
+        <member name="M:FuzzySystem.FuzzyAbstract.Utils.DistanceTools.getInputDistance(FuzzySystem.FuzzyAbstract.SampleSet.RowSample,FuzzySystem.FuzzyAbstract.SampleSet.RowSample,FuzzySystem.FuzzyAbstract.Utils.DistanceTools.DistanceType)">
+            <summary>
+            Позволяе расчитать дистанцию между двумя объектами  SampleSet.RowSample.
+            Учитываются только входные параметры.
+            </summary>
+            <param name="A">Первый входной вектор типа SampleSet.RowSample </param>
+            <param name="B">Второй входной вектор типа SampleSet.RowSample</param>
+            <param name="type">Тип вычисляемого расстояния Евклидово, Манхетенское и др.</param>
+            <returns>Растояние типа double</returns>
+        </member>
+        <member name="M:FuzzySystem.FuzzyAbstract.Utils.DistanceTools.getOutputDistance(FuzzySystem.FuzzyAbstract.SampleSet.RowSample,FuzzySystem.FuzzyAbstract.SampleSet.RowSample,FuzzySystem.FuzzyAbstract.Utils.DistanceTools.DistanceType)">
+            <summary>
+            Позволяе расчитать дистанцию между двумя объектами  SampleSet.RowSample.
+            Учитываются только выходной параметр.
+            </summary>
+            <param name="A">Первый входной вектор типа SampleSet.RowSample </param>
+            <param name="B">Второй входной вектор типа SampleSet.RowSample</param>
+            <param name="type">Тип вычисляемого расстояния Евклидово, Манхетенское и др.</param>
+            <returns>Растояние типа double</returns>
+        </member>
+        <member name="M:FuzzySystem.FuzzyAbstract.Utils.DistanceTools.getFullDistance(FuzzySystem.FuzzyAbstract.SampleSet.RowSample,FuzzySystem.FuzzyAbstract.SampleSet.RowSample,FuzzySystem.FuzzyAbstract.Utils.DistanceTools.DistanceType)">
+            <summary>
+            Позволяе расчитать дистанцию между двумя объектами  SampleSet.RowSample.
+            Учитываются и входные и выходной параметры.
+            </summary>
+            <param name="A">Первый входной вектор типа SampleSet.RowSample </param>
+            <param name="B">Второй входной вектор типа SampleSet.RowSample</param>
+            <param name="type">Тип вычисляемого расстояния Евклидово, Манхетенское и др.</param>
+            <returns>Растояние типа double</returns>
+        </member>
+        <member name="M:FuzzySystem.FuzzyAbstract.Utils.DistanceTools.getInputNormalizedDistance(FuzzySystem.FuzzyAbstract.SampleSet.RowSample,FuzzySystem.FuzzyAbstract.SampleSet.RowSample,FuzzySystem.FuzzyAbstract.SampleSet,FuzzySystem.FuzzyAbstract.SampleSet,FuzzySystem.FuzzyAbstract.Utils.DistanceTools.DistanceType)">
+            <summary>
+            Позволяе расчитать отнормированную дистанцию между двумя объектами  SampleSet.RowSample.
+             Учитываются входные параметры.
+            </summary>
+            <param name="A">Первый входной вектор типа SampleSet.RowSample</param>
+            <param name="B">Второй входной вектор типа SampleSet.RowSample</param>
+            <param name="dataInfoA">SampleSet используемый для корректной нормировки значений вектора A</param>
+            <param name="dataInfoB">SampleSet используемый для корректной нормировки значений вектора B</param>
+            <param name="type">Тип вычисляемого расстояния Евклидово, Манхетенское и др.</param>
+            <returns>Растояние типа double</returns>
+        </member>
+        <member name="M:FuzzySystem.FuzzyAbstract.Utils.DistanceTools.getOutputNormalizedDistance(FuzzySystem.FuzzyAbstract.SampleSet.RowSample,FuzzySystem.FuzzyAbstract.SampleSet.RowSample,FuzzySystem.FuzzyAbstract.SampleSet,FuzzySystem.FuzzyAbstract.SampleSet,FuzzySystem.FuzzyAbstract.Utils.DistanceTools.DistanceType)">
+            <summary>
+            Позволяе расчитать отнормированную дистанцию между двумя объектами  SampleSet.RowSample.
+             Учитывает только выходной параметр.
+            </summary>
+            <param name="A">Первый входной вектор типа SampleSet.RowSample</param>
+            <param name="B">Второй входной вектор типа SampleSet.RowSample</param>
+            <param name="dataInfoA">SampleSet используемый для корректной нормировки значений вектора A</param>
+            <param name="dataInfoB">SampleSet используемый для корректной нормировки значений вектора B</param>
+            <param name="type">Тип вычисляемого расстояния Евклидово, Манхетенское и др.</param>
+            <returns>Растояние типа double</returns>
+        </member>
+        <member name="M:FuzzySystem.FuzzyAbstract.Utils.DistanceTools.getFullNormalizedDistance(FuzzySystem.FuzzyAbstract.SampleSet.RowSample,FuzzySystem.FuzzyAbstract.SampleSet.RowSample,FuzzySystem.FuzzyAbstract.SampleSet,FuzzySystem.FuzzyAbstract.SampleSet,FuzzySystem.FuzzyAbstract.Utils.DistanceTools.DistanceType)">
+            <summary>
+            Позволяет расчитать отнормированную дистанцию между двумя объектами  SampleSet.RowSample.
+             Учитывает входные и выходной параметры.
+            </summary>
+            <param name="A">Первый входной вектор типа SampleSet.RowSample</param>
+            <param name="B">Второй входной вектор типа SampleSet.RowSample</param>
+            <param name="dataInfoA">SampleSet используемый для корректной нормировки значений вектора A</param>
+            <param name="dataInfoB">SampleSet используемый для корректной нормировки значений вектора B</param>
+            <param name="type">Тип вычисляемого расстояния Евклидово, Манхетенское и др.</param>
+            <returns>Растояние типа double</returns>
+        </member>
+        <member name="M:FuzzySystem.FuzzyAbstract.Utils.DistanceTools.NearestInputIndex(FuzzySystem.FuzzyAbstract.SampleSet.RowSample,System.Collections.Generic.List{FuzzySystem.FuzzyAbstract.SampleSet.RowSample},FuzzySystem.FuzzyAbstract.Utils.DistanceTools.DistanceType)">
+            <summary>
+            Позволяет найти ближайшую точку в списке ListValue на основе заданного способа рассчета дистанции.
+            Учитываются входные  параметры.
+            </summary>
+            <param name="A">Точка для которой исчется ближайшая в списке ListValue</param>
+            <param name="ListValue">Вектор точек</param>
+            <param name="type">Тип вычисляемого расстояния Евклидово, Манхетенское и др.</param>
+            <returns>Индекс ближайшей точки типа int</returns>
+        </member>
+        <member name="M:FuzzySystem.FuzzyAbstract.Utils.DistanceTools.NearestInputIndex(FuzzySystem.FuzzyAbstract.SampleSet.RowSample,FuzzySystem.FuzzyAbstract.SampleSet.RowSample[],FuzzySystem.FuzzyAbstract.Utils.DistanceTools.DistanceType)">
+            <summary>
+            Позволяет найти ближайшую точку в массиве Array на основе заданного способа рассчета дистанции.
+            Учитываются входные  параметры.
+            </summary>
+            <param name="A">Точка для которой исчется ближайшая в массиве Array</param>
+            <param name="Array">Вектор точек</param>
+            <param name="type">Тип вычисляемого расстояния Евклидово, Манхетенское и др.</param>
+            <returns>Индекс ближайшей точки типа int</returns>
+        </member>
+        <member name="M:FuzzySystem.FuzzyAbstract.Utils.DistanceTools.NearestOutputIndex(FuzzySystem.FuzzyAbstract.SampleSet.RowSample,System.Collections.Generic.List{FuzzySystem.FuzzyAbstract.SampleSet.RowSample},FuzzySystem.FuzzyAbstract.Utils.DistanceTools.DistanceType)">
+            <summary>
+            Позволяет найти ближайшую точку в списке ListValue на основе заданного способа рассчета дистанции.
+            Учитывается только выходной  параметр.
+            </summary>
+            <param name="A">Точка для которой исчется ближайшая в списке ListValue</param>
+            <param name="ListValue">Вектор точек</param>
+            <param name="type">Тип вычисляемого расстояния Евклидово, Манхетенское и др.</param>
+            <returns>Индекс ближайшей точки типа int</returns>
+        </member>
+        <member name="M:FuzzySystem.FuzzyAbstract.Utils.DistanceTools.NearestOutputIndex(FuzzySystem.FuzzyAbstract.SampleSet.RowSample,FuzzySystem.FuzzyAbstract.SampleSet.RowSample[],FuzzySystem.FuzzyAbstract.Utils.DistanceTools.DistanceType)">
+            <summary>
+            Позволяет найти ближайшую точку в массиве Array на основе заданного способа рассчета дистанции.
+            Учитывается только выходной  параметр.
+            </summary>
+            <param name="A">Точка для которой исчется ближайшая в массиве Array</param>
+            <param name="Array">Вектор точек</param>
+            <param name="type">Тип вычисляемого расстояния Евклидово, Манхетенское и др.</param>
+            <returns>Индекс ближайшей точки типа int</returns>
+        </member>
+        <member name="M:FuzzySystem.FuzzyAbstract.Utils.DistanceTools.NearestFullIndex(FuzzySystem.FuzzyAbstract.SampleSet.RowSample,System.Collections.Generic.List{FuzzySystem.FuzzyAbstract.SampleSet.RowSample},FuzzySystem.FuzzyAbstract.Utils.DistanceTools.DistanceType)">
+            <summary>
+            Позволяет найти ближайшую точку в списке ListValue на основе заданного способа рассчета дистанции.
+            Учитываются входные и выходной  параметры.
+            </summary>
+            <param name="A">Точка для которой исчется ближайшая в списке ListValue</param>
+            <param name="ListValue">Вектор точек</param>
+            <param name="type">Тип вычисляемого расстояния Евклидово, Манхетенское и др.</param>
+            <returns>Индекс ближайшей точки типа int</returns>
+        </member>
+        <member name="M:FuzzySystem.FuzzyAbstract.Utils.DistanceTools.NearestFullIndex(FuzzySystem.FuzzyAbstract.SampleSet.RowSample,FuzzySystem.FuzzyAbstract.SampleSet.RowSample[],FuzzySystem.FuzzyAbstract.Utils.DistanceTools.DistanceType)">
+            <summary>
+            Позволяет найти ближайшую точку в массиве Array на основе заданного способа рассчета дистанции.
+            Учитываются входные и выходной  параметры.
+            </summary>
+            <param name="A">Точка для которой исчется ближайшая в массиве Array</param>
+            <param name="Array">Вектор точек</param>
+            <param name="type">Тип вычисляемого расстояния Евклидово, Манхетенское и др.</param>
+            <returns>Индекс ближайшей точки типа int</returns>
+        </member>
+        <member name="M:FuzzySystem.FuzzyAbstract.Utils.DistanceTools.NearestNormalizedInputIndex(FuzzySystem.FuzzyAbstract.SampleSet.RowSample,System.Collections.Generic.List{FuzzySystem.FuzzyAbstract.SampleSet.RowSample},FuzzySystem.FuzzyAbstract.SampleSet,FuzzySystem.FuzzyAbstract.SampleSet,FuzzySystem.FuzzyAbstract.Utils.DistanceTools.DistanceType)">
+            <summary>
+            Позволяет найти ближайшую точку в списке ListValue на основе заданного способа рассчета нормированной дистанции.
+            Учитываются входные  параметры.
+            </summary>
+            <param name="A">Точка для которой исчется ближайшая в списке ListValue</param>
+            <param name="ListValue">Вектор точек</param>
+            <param name="dataInfoA">SampleSet используемый для корректной нормировки значений вектора A</param>
+            <param name="dataInfoB">SampleSet используемый для корректной нормировки значений в списке ListValue</param>
+            <param name="type">Тип вычисляемого расстояния Евклидово, Манхетенское и др.</param>
+            <returns>Индекс ближайшей точки типа int</returns>
+        </member>
+        <member name="M:FuzzySystem.FuzzyAbstract.Utils.DistanceTools.NearestNormalizedInputIndex(FuzzySystem.FuzzyAbstract.SampleSet.RowSample,FuzzySystem.FuzzyAbstract.SampleSet.RowSample[],FuzzySystem.FuzzyAbstract.SampleSet,FuzzySystem.FuzzyAbstract.SampleSet,FuzzySystem.FuzzyAbstract.Utils.DistanceTools.DistanceType)">
+            <summary>
+            Позволяет найти ближайшую точку в массиве Array на основе заданного способа рассчета дистанции.
+            Учитываются входные  параметры.
+            </summary>
+            <param name="A">Точка для которой исчется ближайшая в массиве Array</param>
+            <param name="Array">Вектор точек</param>
+            <param name="dataInfoA">SampleSet используемый для корректной нормировки значений вектора A</param>
+            <param name="dataInfoB">SampleSet используемый для корректной нормировки значений в списке ListValue</param>
+            <param name="type">Тип вычисляемого расстояния Евклидово, Манхетенское и др.</param>
+            <returns>Индекс ближайшей точки типа int</returns>
+        </member>
+        <member name="M:FuzzySystem.FuzzyAbstract.Utils.DistanceTools.NearestNormalizedOutputIndex(FuzzySystem.FuzzyAbstract.SampleSet.RowSample,System.Collections.Generic.List{FuzzySystem.FuzzyAbstract.SampleSet.RowSample},FuzzySystem.FuzzyAbstract.SampleSet,FuzzySystem.FuzzyAbstract.SampleSet,FuzzySystem.FuzzyAbstract.Utils.DistanceTools.DistanceType)">
+            <summary>
+            Позволяет найти ближайшую точку в списке ListValue на основе заданного способа рассчета дистанции.
+            Учитывается только выходной  параметр.
+            </summary>
+            <param name="A">Точка для которой исчется ближайшая в списке ListValue</param>
+            <param name="ListValue">Вектор точек</param>
+            <param name="dataInfoA">SampleSet используемый для корректной нормировки значений вектора A</param>
+            <param name="dataInfoB">SampleSet используемый для корректной нормировки значений в списке ListValue</param>
+            <param name="type">Тип вычисляемого расстояния Евклидово, Манхетенское и др.</param>
+            <returns>Индекс ближайшей точки типа int</returns>
+        </member>
+        <member name="M:FuzzySystem.FuzzyAbstract.Utils.DistanceTools.NearestNormalizedOutputIndex(FuzzySystem.FuzzyAbstract.SampleSet.RowSample,FuzzySystem.FuzzyAbstract.SampleSet.RowSample[],FuzzySystem.FuzzyAbstract.SampleSet,FuzzySystem.FuzzyAbstract.SampleSet,FuzzySystem.FuzzyAbstract.Utils.DistanceTools.DistanceType)">
+            <summary>
+            Позволяет найти ближайшую точку в массиве Array на основе заданного способа рассчета дистанции.
+            Учитывается только выходной  параметр.
+            </summary>
+            <param name="A">Точка для которой исчется ближайшая в массиве Array</param>
+            <param name="Array">Вектор точек</param>
+            <param name="dataInfoA">SampleSet используемый для корректной нормировки значений вектора A</param>
+            <param name="dataInfoB">SampleSet используемый для корректной нормировки значений в списке ListValue</param>
+            <param name="type">Тип вычисляемого расстояния Евклидово, Манхетенское и др.</param>
+            <returns>Индекс ближайшей точки типа int</returns>
+        </member>
+        <member name="M:FuzzySystem.FuzzyAbstract.Utils.DistanceTools.NearestNormalizedFullIndex(FuzzySystem.FuzzyAbstract.SampleSet.RowSample,System.Collections.Generic.List{FuzzySystem.FuzzyAbstract.SampleSet.RowSample},FuzzySystem.FuzzyAbstract.SampleSet,FuzzySystem.FuzzyAbstract.SampleSet,FuzzySystem.FuzzyAbstract.Utils.DistanceTools.DistanceType)">
+            <summary>
+            Позволяет найти ближайшую точку в списке ListValue на основе заданного способа рассчета дистанции.
+            Учитываются входные и выходной  параметры.
+            </summary>
+            <param name="A">Точка для которой исчется ближайшая в списке ListValue</param>
+            <param name="ListValue">Вектор точек</param>
+            <param name="dataInfoA">SampleSet используемый для корректной нормировки значений вектора A</param>
+            <param name="dataInfoB">SampleSet используемый для корректной нормировки значений в списке ListValue</param>
+            <param name="type">Тип вычисляемого расстояния Евклидово, Манхетенское и др.</param>
+            <returns>Индекс ближайшей точки типа int</returns>
+        </member>
+        <member name="M:FuzzySystem.FuzzyAbstract.Utils.DistanceTools.NearestNormalizedFullIndex(FuzzySystem.FuzzyAbstract.SampleSet.RowSample,FuzzySystem.FuzzyAbstract.SampleSet.RowSample[],FuzzySystem.FuzzyAbstract.SampleSet,FuzzySystem.FuzzyAbstract.SampleSet,FuzzySystem.FuzzyAbstract.Utils.DistanceTools.DistanceType)">
+            <summary>
+            Позволяет найти ближайшую точку в массиве Array на основе заданного способа рассчета дистанции.
+            Учитываются входные и выходной  параметры.
+            </summary>
+            <param name="A">Точка для которой исчется ближайшая в массиве Array</param>
+            <param name="Array">Вектор точек</param>
+            <param name="dataInfoA">SampleSet используемый для корректной нормировки значений вектора A</param>
+            <param name="dataInfoB">SampleSet используемый для корректной нормировки значений в списке ListValue</param>
+            <param name="type">Тип вычисляемого расстояния Евклидово, Манхетенское и др.</param>
+            <returns>Индекс ближайшей точки типа int</returns>
+        </member>
+        <member name="T:FuzzySystem.FuzzyAbstract.NullConfForAll">
+            <summary>
+            Класс-конфигуратор для алгоритвом генерации и оптимизации не требующих задания дополнительныз параметров
+            </summary>
+        </member>
+        <member name="T:FuzzySystem.FuzzyAbstract.IFuzzySystem">
+            <summary>
+            Абстрактный класс представляющий любую нечеткую систему как совокупность обучающией и тестовой выборки, а также массива абстрактных правил баз правил.
+            </summary>
+        </member>
+        <member name="M:FuzzySystem.FuzzyAbstract.IFuzzySystem.ValueComplexity(FuzzySystem.FuzzyAbstract.KnowlegeBaseRules)">
+            <summary>
+            Функция получающая сложность заданной базы правил как суммы количества правил и термов
+            </summary>
+            <param name="Source">База правил</param>
+            <returns>Сумма количества правил и термов</returns>
+        </member>
+        <member name="M:FuzzySystem.FuzzyAbstract.IFuzzySystem.ValueRuleCount(FuzzySystem.FuzzyAbstract.KnowlegeBaseRules)">
+            <summary>
+            Функция получающая количество правил в заданной базе правил
+            </summary>
+            <param name="Source">База правил</param>
+            <returns>Количество правил</returns>
+        </member>
+        <member name="M:FuzzySystem.FuzzyAbstract.IFuzzySystem.ErrorTestSamples(FuzzySystem.FuzzyAbstract.KnowlegeBaseRules)">
+            <summary>
+            Абстрактная функция требующая, чтобы для любой базы правил была вычислима ошибка на тестовой выборке.
+            </summary>
+            <param name="Source">База правил</param>
+            <returns>Ошибка базы правил на тестовой выборке</returns>
+        </member>
+        <member name="M:FuzzySystem.FuzzyAbstract.IFuzzySystem.ErrorLearnSamples(FuzzySystem.FuzzyAbstract.KnowlegeBaseRules)">
+            <summary>
+            Абстрактная функция требующая, чтобы для любой базы правил была вычислима ошибка на обучающей выборке.
+            </summary>
+            <param name="Source">База правил</param>
+            <returns>Ошибка базы правил на обучающей выборке</returns>
+        </member>
+        <member name="M:FuzzySystem.FuzzyAbstract.IFuzzySystem.AbstractRulesBase">
+            <summary>
+            Функция преобразующая массив баз правил заданного у наследников типа в 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:FuzzySystem.FuzzyAbstract.IFuzzySystem.LearnSamplesSet">
+            <summary>
+            Обучающая выборка данных
+            </summary>
+        </member>
+        <member name="P:FuzzySystem.FuzzyAbstract.IFuzzySystem.TestSamplesSet">
+            <summary>
+            Тестовая выборка данных
+            </summary>
+        </member>
+        <member name="P:FuzzySystem.FuzzyAbstract.IFuzzySystem.CountFeatures">
+            <summary>
+            Полное количество входных параметров доступных в обучающей выборке, без учета используемых или нет
+            </summary>
+        </member>
+        <member name="P:FuzzySystem.FuzzyAbstract.IFuzzySystem.CountUsedVars">
+            <summary>
+            Количество входных параметров используемых при вычислении ошибки. Данное значение меньше или равно количеству входных признаков в обучающей выборке. 
+            </summary>
+        </member>
+        <member name="P:FuzzySystem.FuzzyAbstract.IFuzzySystem.AcceptedFeatures">
+            <summary>
+            Вектор указывающий какие входные признаки используются в расчёте ошибки а какие нет. True значение на i-той позиции означает что i-тый входной признак используется
+            </summary>
+        </member>
+        <member name="M:FuzzySystem.FuzzyAbstract.IFuzzySystem.#ctor(FuzzySystem.FuzzyAbstract.SampleSet,FuzzySystem.FuzzyAbstract.SampleSet)">
+            <summary>
+            Конструктор создающий нечеткуюс систему без баз правил, но с заданной обучающей и тестовой выборкой 
+            </summary>
+            <param name="LearnSet">Обучающая выборка</param>
+            <param name="TestSet">Тестовая выборка</param>
+        </member>
+        <member name="M:FuzzySystem.FuzzyAbstract.IFuzzySystem.#ctor(FuzzySystem.FuzzyAbstract.IFuzzySystem)">
+            <summary>
+            Клонирующий конструктор. Создает полную копию исходной нечеткой счистемы.
+            </summary>
+            <param name="Source">Исходная нечеткая система</param>
+        </member>
+        <member name="M:FuzzySystem.FuzzyAbstract.IFuzzySystem.UnlaidProtectionFix(FuzzySystem.FuzzyAbstract.KnowlegeBaseRules)">
+            <summary>
+            Метод геометрической коррекции базы правил, гарантирует верное вычисление ошибки на обучающей и тестовой выборках за счёт разрешения ситуаций неопределенности (некоторые входные признаки неполностью покрыты функциями принадлежности)
+            </summary>
+            <param name="Source">База правил подлежащая исправлению методом геометрической проверки</param>
+        </member>
+        <member name="M:FuzzySystem.FuzzyAbstract.IFuzzySystem.UnlaidProtectionFixMaxMinBorder(FuzzySystem.FuzzyAbstract.KnowlegeBaseRules)">
+            <summary>
+            Часть метода геометрической коррекции базы правил, исправляет ситуацию когда для данных содержащих  минимальные или максимальные значения входящих признаков результат классификации или аппроксимации неопределен 
+            </summary>
+            <param name="Source">База правил подлежащая исправлению методом геометрической проверки</param>
+        </member>
+        <member name="M:FuzzySystem.FuzzyAbstract.IFuzzySystem.UnlaidProtectionInMiddle(FuzzySystem.FuzzyAbstract.KnowlegeBaseRules)">
+            <summary>
+            Часть метода геометрической коррекции базы правил, исправляет ситуацию когда существую на входных признаках области не принадлежащие ни одному из множеств. 
+            </summary>
+            <param name="Source">База правил подлежащая исправлению методом геометрической проверки</param>
+        </member>
+        <member name="P:FuzzySystem.FuzzyAbstract.IFuzzySystem.nameObj">
+            <summary>
+            Случайное имя нечеткой системы для отличия нечетких систем во время отладки
+            </summary>
+        </member>
+        <member name="M:FuzzySystem.FuzzyAbstract.IFuzzySystem.ToString">
+            <summary>
+            Метод получения имени нечеткой системы. 
+            </summary>
+            <returns>Случайное и уникальное имя нечеткой системы</returns>
+        </member>
+        <member name="M:FuzzySystem.FuzzyAbstract.IFuzzySystem.RMSEtoMSE(System.Double,System.Int32)">
+            <summary>
+            Общая формула пересчёта ошибки в RMSE (Корень квадратный из суммы квадратов невязок результатов аппроксимации и выходов таблицы наблюдения деленной на размер таблицы наблюдения) в MSE (отношение суммы квадратов невязок результатов аппроксимации с выходами таблицы наблюдения к количеству образцов в таблице наблюдения )
+            </summary>
+            <param name="Source">Ошибка в RMSE. Методы ErrorLearnSamples и ErrorTestSamples расчитывают ошибку аппроксимации в RMSE</param>
+            <param name="CountSamples">Количество строк в таблице наблюдений</param>
+            <returns>Ощибка аппроксимации в MSE </returns>
+        </member>
+        <member name="M:FuzzySystem.FuzzyAbstract.IFuzzySystem.RMSEtoMSEforLearn(System.Double)">
+            <summary>
+            Метод пересчёта ошибки аппроксимации из RMSE в MSE для обучающей выборки.
+            </summary>
+            <param name="Source">Ошибка в RMSE. Метод ErrorLearnSamples расчитывает ошибку аппроксимации в RMSE</param>
+            <returns>Ощибка аппроксимации в MSE </returns>
+        </member>
+        <member name="M:FuzzySystem.FuzzyAbstract.IFuzzySystem.RMSEtoMSEforTest(System.Double)">
+            <summary>
+            Метод пересчёта ошибки аппроксимации из RMSE в MSE для тестовой выборки.
+            </summary>
+            <param name="Source">Ошибка в RMSE. Метод ErrorTestSamples расчитывает ошибку аппроксимации в RMSE</param>
+            <returns>Ощибка аппроксимации в MSE </returns>
+        </member>
+        <member name="M:FuzzySystem.FuzzyAbstract.IFuzzySystem.RMSEtoMSEdiv2forLearn(System.Double)">
+            <summary>
+            Метод пересчёта ошибки аппроксимации из RMSE в MSE/2 для обучающей выборки.
+            </summary>
+            <param name="Source">Ошибка в RMSE. Метод ErrorLearnSamples расчитывает ошибку аппроксимации в RMSE</param>
+            <returns>Ощибка аппроксимации в MSE/2 </returns>
+        </member>
+        <member name="M:FuzzySystem.FuzzyAbstract.IFuzzySystem.RMSEtoMSEdiv2forTest(System.Double)">
+            <summary>
+            Метод пересчёта ошибки аппроксимации из RMSE в MSE/2 для тестовой выборки.
+            </summary>
+            <param name="Source">Ошибка в RMSE. Метод ErrorTestSamples расчитывает ошибку аппроксимации в RMSE</param>
+            <returns>Ощибка аппроксимации в MSE/2 </returns>
+        </member>
+        <member name="T:FuzzySystem.FuzzyAbstract.Rule">
+            <summary>
+            Абстрактный класс описывающий объекта "правило"
+            </summary>
+        </member>
+        <member name="P:FuzzySystem.FuzzyAbstract.Rule.ListTermsInRule">
+            <summary>
+            Колекция термов в правиле. 
+            </summary>
+        </member>
+        <member name="M:FuzzySystem.FuzzyAbstract.Rule.#ctor(FuzzySystem.FuzzyAbstract.TermSetGlobal{FuzzySystem.FuzzyAbstract.Term},System.Int32[])">
+            <summary>
+            Конструктор правила
+            </summary>
+            <param name="TermsSet">Колекция всех термов в базе правил</param>
+            <param name="NumOfTerms">Номера термов используемых в этом правиле из TermsSet</param>
+        </member>
+        <member name="T:FuzzySystem.FuzzyAbstract.TypeTermFuncEnum">
+            <summary>
+            Перечисление доступных видов функций принадлежности
+            </summary>
+        </member>
+        <member name="T:FuzzySystem.FuzzyAbstract.Term">
+            <summary>
+            Класс описывающий функций принадлежности нечетким множествам
+            </summary>
+        </member>
+        <member name="P:FuzzySystem.FuzzyAbstract.Term.Parametrs">
+            <summary>
+            Параметры функции принадлежности, вектор переменной длины
+            </summary>
+        </member>
+        <member name="P:FuzzySystem.FuzzyAbstract.Term.TermFuncType">
+            <summary>
+            Тип функции принадлежности
+            </summary>
+        </member>
+        <member name="P:FuzzySystem.FuzzyAbstract.Term.NumVar">
+            <summary>
+             Для какого по номеру входного параметра определен терм 
+            </summary>
+        </member>
+        <member name="M:FuzzySystem.FuzzyAbstract.Term.#ctor(System.Double[],FuzzySystem.FuzzyAbstract.TypeTermFuncEnum,System.Int32)">
+            <summary>
+            Конструктор для создания функции принадлежности
+            </summary>
+            <param name="paramtrs">Вектор параметров функции принадлежности</param>
+            <param name="type_term">Тип функции принадлежности</param>
+            <param name="num_var">Номер входного параметра для которого определена функция принадлежности</param>
+        </member>
+        <member name="M:FuzzySystem.FuzzyAbstract.Term.#ctor(FuzzySystem.FuzzyAbstract.Term)">
+            <summary>
+            Клонирующий конструктор, создающий полную копию заданной функции принадлежности
+            </summary>
+            <param name="source">Заданная функций принадлежности</param>
+        </member>
+        <member name="P:FuzzySystem.FuzzyAbstract.Term.Max">
+            <summary>
+            Максимальное по величине значение параметров терма 
+            </summary>
+        </member>
+        <member name="P:FuzzySystem.FuzzyAbstract.Term.Min">
+            <summary>
+            Минимальное по величине значение параметров терма
+            </summary>
+        </member>
+        <member name="M:FuzzySystem.FuzzyAbstract.Term.MakeTerm(System.Double,System.Double,FuzzySystem.FuzzyAbstract.TypeTermFuncEnum,System.Int32)">
+            <summary>
+            Метод упращающий создание функции принадлежности. Использует значение пика (центра ) функции принадлежности, дистанцию (разброс отностительно центра), тип функции принадлежности и указание номер входной переменной
+            </summary>
+            <param name="center">значение пика (центра ) функции принадлежности</param>
+            <param name="distance"> дистанция (разброс отностительно центра)</param>
+            <param name="TypeTerm">тип функции принадлежности</param>
+            <param name="NumVar">Номер входной переменной</param>
+            <returns>Новая функция принадлежности</returns>
+        </member>
+        <member name="M:FuzzySystem.FuzzyAbstract.Term.GenTermParams(System.Double,System.Double,FuzzySystem.FuzzyAbstract.TypeTermFuncEnum)">
+            <summary>
+            Метод расчитывающий вектор параметров по заданому значению пика функции принадлежности, разбросу отностельно центра и типу функции принадлежности.   
+            </summary>
+            <param name="Center">Значении пика (центра) функции принадлежности</param>
+            <param name="distance">Разбросу отностельно пика (центра) функции принадлежности</param>
+            <param name="TypeTerm">Тип функции принадлежности</param>
+            <returns>Вектор параметров функции принадлежности</returns>
+        </member>
+        <member name="P:FuzzySystem.FuzzyAbstract.Term.Pick">
+            <summary>
+            Свойство возвращающее значение пика (центра) функции принадлежности 
+            </summary>
+        </member>
+        <member name="M:FuzzySystem.FuzzyAbstract.Term.CountParamsinSelectedTermType(FuzzySystem.FuzzyAbstract.TypeTermFuncEnum)">
+            <summary>
+            Размер вектора параметров для заданного типа функции принадлежности.
+            </summary>
+            <param name="tf">Тип функции принадлежности</param>
+            <returns>Размер вектора параметров</returns>
+        </member>
+        <member name="P:FuzzySystem.FuzzyAbstract.Term.CountParams">
+            <summary>
+            Размер вектора параметров в текущем терме.
+            </summary>
+        </member>
+        <member name="M:FuzzySystem.FuzzyAbstract.Term.ToStringTypeTerm(FuzzySystem.FuzzyAbstract.TypeTermFuncEnum)">
+            <summary>
+            Функция преобразование типа функции принадлежности в текстовое описание
+            </summary>
+            <param name="tf">Тип функции принадлежности</param>
+            <returns>Строка с названием типа функции принадлежности</returns>
+        </member>
+        <member name="P:FuzzySystem.FuzzyAbstract.Term.TypeTerm">
+            <summary>
+            Текствое название типа текущей функции принадлежности
+            </summary>
+        </member>
+        <member name="M:FuzzySystem.FuzzyAbstract.Term.LevelOfMembership(System.Double[])">
+            <summary>
+            Функция расчитывающая уровень принадлежности к текущему нечеткому множеству согласно текущей функции принадлежности
+            </summary>
+            <param name="x">Вектор входных вещественных параметров</param>
+            <returns>Уровень принадлежности</returns>
+        </member>
+        <member name="M:FuzzySystem.FuzzyAbstract.Term.LevelOfMembership(System.Double)">
+            <summary>
+            Функция расчитывающая уровень принадлежности к текущему нечеткому множеству согласно текущей функции принадлежности 
+            </summary>
+            <param name="x">Вещественное значение для которого определяется уровень принадлежности</param>
+            <returns>Уровень принадлежности</returns>
+        </member>
+        <member name="M:FuzzySystem.FuzzyAbstract.Term.getXValueByLevelMembership(System.Double)">
+            <summary>
+            Функция получающая набор значение входного параметра, с заданным уровнем принадлежности к текущему нечеткому множеству задаваемому текущей функцие принадлежности.
+            </summary>
+            <param name="Level">Уровень принадлежности в диапазоне от 0 по 1 </param>
+            <returns>Вектор вещественных значений входного параметра</returns>
+        </member>
+        <member name="M:FuzzySystem.FuzzyAbstract.Term.FixTermParams">
+            <summary>
+            Метод исправляющая слишком узкую Гауссову функцию, а также упорядывающая параметры других функции принадлежности.
+            </summary>
+        </member>
+    </members>
+</doc>

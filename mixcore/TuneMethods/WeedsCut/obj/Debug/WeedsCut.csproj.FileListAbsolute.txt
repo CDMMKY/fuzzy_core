@@ -1,0 +1,12 @@
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\GUI\Compiled\Methods\Tune\WeedsCut.dll.config
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\GUI\Compiled\Methods\Tune\WeedsCut.dll
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\GUI\Compiled\Methods\Tune\WeedsCut.pdb
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\TuneMethods\WeedsCut\obj\Debug\WeedsCut.csprojResolveAssemblyReference.cache
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\TuneMethods\WeedsCut\obj\Debug\WeedsCut.dll
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\TuneMethods\WeedsCut\obj\Debug\WeedsCut.pdb
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\WeedsCut.dll.config
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\WeedsCut.dll
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\WeedsCut.pdb
+E:\GPO\mixcore\TuneMethods\WeedsCut\obj\Debug\WeedsCut.csprojResolveAssemblyReference.cache
+E:\GPO\mixcore\TuneMethods\WeedsCut\obj\Debug\WeedsCut.dll
+E:\GPO\mixcore\TuneMethods\WeedsCut\obj\Debug\WeedsCut.pdb

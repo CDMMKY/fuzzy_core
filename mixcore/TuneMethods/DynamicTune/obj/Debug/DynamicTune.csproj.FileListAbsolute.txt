@@ -1,0 +1,12 @@
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\GUI\Compiled\Methods\Tune\DynamicTune.dll.config
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\GUI\Compiled\Methods\Tune\DynamicTune.dll
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\GUI\Compiled\Methods\Tune\DynamicTune.pdb
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\TuneMethods\DynamicTune\obj\Debug\DynamicTune.dll
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\TuneMethods\DynamicTune\obj\Debug\DynamicTune.pdb
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\TuneMethods\DynamicTune\obj\Debug\DynamicTune.csprojResolveAssemblyReference.cache
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\DynamicTune.dll.config
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\DynamicTune.dll
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\DynamicTune.pdb
+E:\GPO\mixcore\TuneMethods\DynamicTune\obj\Debug\DynamicTune.dll
+E:\GPO\mixcore\TuneMethods\DynamicTune\obj\Debug\DynamicTune.pdb
+E:\GPO\mixcore\TuneMethods\DynamicTune\obj\Debug\DynamicTune.csprojResolveAssemblyReference.cache

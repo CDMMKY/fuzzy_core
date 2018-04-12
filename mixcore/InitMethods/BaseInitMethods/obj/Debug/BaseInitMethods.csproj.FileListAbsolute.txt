@@ -1,0 +1,12 @@
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\GUI\Compiled\Methods\Init\BaseInitMethods.dll.config
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\GUI\Compiled\Methods\Init\BaseInitMethods.dll
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\GUI\Compiled\Methods\Init\BaseInitMethods.pdb
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\InitMethods\BaseInitMethods\obj\Debug\BaseInitMethods.csprojResolveAssemblyReference.cache
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\InitMethods\BaseInitMethods\obj\Debug\BaseInitMethods.dll
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\InitMethods\BaseInitMethods\obj\Debug\BaseInitMethods.pdb
+E:\GPO\mixcore\GUI\Compiled\Methods\Init\BaseInitMethods.dll.config
+E:\GPO\mixcore\GUI\Compiled\Methods\Init\BaseInitMethods.dll
+E:\GPO\mixcore\GUI\Compiled\Methods\Init\BaseInitMethods.pdb
+E:\GPO\mixcore\InitMethods\BaseInitMethods\obj\Debug\BaseInitMethods.csprojResolveAssemblyReference.cache
+E:\GPO\mixcore\InitMethods\BaseInitMethods\obj\Debug\BaseInitMethods.dll
+E:\GPO\mixcore\InitMethods\BaseInitMethods\obj\Debug\BaseInitMethods.pdb

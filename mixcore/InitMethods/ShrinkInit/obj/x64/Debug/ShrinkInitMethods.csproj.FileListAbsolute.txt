@@ -1,0 +1,6 @@
+E:\GPO\mixcore\GUI\Compiled\Methods\Init\ShrinkInit.dll.config
+E:\GPO\mixcore\GUI\Compiled\Methods\Init\ShrinkInit.dll
+E:\GPO\mixcore\GUI\Compiled\Methods\Init\ShrinkInit.pdb
+E:\GPO\mixcore\InitMethods\ShrinkInit\obj\x64\Debug\ShrinkInitMethods.csprojResolveAssemblyReference.cache
+E:\GPO\mixcore\InitMethods\ShrinkInit\obj\x64\Debug\ShrinkInit.dll
+E:\GPO\mixcore\InitMethods\ShrinkInit\obj\x64\Debug\ShrinkInit.pdb

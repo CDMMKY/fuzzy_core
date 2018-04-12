@@ -1,0 +1,16 @@
+E:\GPO\mixcore\OLD\Partial_core\DrawMe\DrawMe\bin\x64\Debug\DrawMe.exe.config
+E:\GPO\mixcore\OLD\Partial_core\DrawMe\DrawMe\bin\x64\Debug\DrawMe.exe
+E:\GPO\mixcore\OLD\Partial_core\DrawMe\DrawMe\bin\x64\Debug\DrawMe.pdb
+E:\GPO\mixcore\OLD\Partial_core\DrawMe\DrawMe\bin\x64\Debug\FuzzyCore.dll
+E:\GPO\mixcore\OLD\Partial_core\DrawMe\DrawMe\bin\x64\Debug\MatrixEvalution.dll
+E:\GPO\mixcore\OLD\Partial_core\DrawMe\DrawMe\bin\x64\Debug\ConfigPropertyGridUtils.dll
+E:\GPO\mixcore\OLD\Partial_core\DrawMe\DrawMe\bin\x64\Debug\FuzzyCore.pdb
+E:\GPO\mixcore\OLD\Partial_core\DrawMe\DrawMe\bin\x64\Debug\MatrixEvalution.pdb
+E:\GPO\mixcore\OLD\Partial_core\DrawMe\DrawMe\bin\x64\Debug\ConfigPropertyGridUtils.pdb
+E:\GPO\mixcore\OLD\Partial_core\DrawMe\DrawMe\obj\x64\Debug\DrawMeFS.csprojResolveAssemblyReference.cache
+E:\GPO\mixcore\OLD\Partial_core\DrawMe\DrawMe\obj\x64\Debug\DrawMe.StartF.resources
+E:\GPO\mixcore\OLD\Partial_core\DrawMe\DrawMe\obj\x64\Debug\DrawMe.Properties.Resources.resources
+E:\GPO\mixcore\OLD\Partial_core\DrawMe\DrawMe\obj\x64\Debug\DrawMeFS.csproj.GenerateResource.Cache
+E:\GPO\mixcore\OLD\Partial_core\DrawMe\DrawMe\obj\x64\Debug\DrawMe.exe
+E:\GPO\mixcore\OLD\Partial_core\DrawMe\DrawMe\obj\x64\Debug\DrawMe.pdb
+E:\GPO\mixcore\OLD\Partial_core\DrawMe\DrawMe\bin\x64\Debug\FuzzyCore.xml

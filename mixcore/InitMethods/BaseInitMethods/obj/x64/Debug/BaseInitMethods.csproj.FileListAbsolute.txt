@@ -1,0 +1,6 @@
+E:\GPO\mixcore\GUI\Compiled\Methods\Init\BaseInitMethods.dll.config
+E:\GPO\mixcore\GUI\Compiled\Methods\Init\BaseInitMethods.dll
+E:\GPO\mixcore\GUI\Compiled\Methods\Init\BaseInitMethods.pdb
+E:\GPO\mixcore\InitMethods\BaseInitMethods\obj\x64\Debug\BaseInitMethods.csprojResolveAssemblyReference.cache
+E:\GPO\mixcore\InitMethods\BaseInitMethods\obj\x64\Debug\BaseInitMethods.dll
+E:\GPO\mixcore\InitMethods\BaseInitMethods\obj\x64\Debug\BaseInitMethods.pdb

@@ -1,0 +1,12 @@
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\GUI\Compiled\Methods\Tune\LSMMethods.dll.config
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\GUI\Compiled\Methods\Tune\LSMMethods.dll
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\GUI\Compiled\Methods\Tune\LSMMethods.pdb
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\TuneMethods\LSMAndDevariationMethods\obj\Debug\DevariationsMethods.csprojResolveAssemblyReference.cache
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\TuneMethods\LSMAndDevariationMethods\obj\Debug\LSMMethods.dll
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\TuneMethods\LSMAndDevariationMethods\obj\Debug\LSMMethods.pdb
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\LSMMethods.dll.config
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\LSMMethods.dll
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\LSMMethods.pdb
+E:\GPO\mixcore\TuneMethods\LSMAndDevariationMethods\obj\Debug\DevariationsMethods.csprojResolveAssemblyReference.cache
+E:\GPO\mixcore\TuneMethods\LSMAndDevariationMethods\obj\Debug\LSMMethods.dll
+E:\GPO\mixcore\TuneMethods\LSMAndDevariationMethods\obj\Debug\LSMMethods.pdb

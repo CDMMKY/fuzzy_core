@@ -1,0 +1,7 @@
+E:\GPO\mixcore\Libs\XLSAndTextFilesTools\bin\x64\Debug\XLSAndTextFilesTools.dll
+E:\GPO\mixcore\Libs\XLSAndTextFilesTools\bin\x64\Debug\XLSAndTextFilesTools.pdb
+E:\GPO\mixcore\Libs\XLSAndTextFilesTools\obj\x64\Debug\XLSAndTextFilesTools.csprojResolveAssemblyReference.cache
+E:\GPO\mixcore\Libs\XLSAndTextFilesTools\obj\x64\Debug\XLSAndTextFilesTools.Properties.Resources.resources
+E:\GPO\mixcore\Libs\XLSAndTextFilesTools\obj\x64\Debug\XLSAndTextFilesTools.csproj.GenerateResource.Cache
+E:\GPO\mixcore\Libs\XLSAndTextFilesTools\obj\x64\Debug\XLSAndTextFilesTools.dll
+E:\GPO\mixcore\Libs\XLSAndTextFilesTools\obj\x64\Debug\XLSAndTextFilesTools.pdb

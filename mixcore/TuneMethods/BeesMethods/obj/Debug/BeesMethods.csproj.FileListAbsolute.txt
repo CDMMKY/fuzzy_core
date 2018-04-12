@@ -1,0 +1,12 @@
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\GUI\Compiled\Methods\Tune\BeesMethods.dll.config
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\GUI\Compiled\Methods\Tune\BeesMethods.dll
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\GUI\Compiled\Methods\Tune\BeesMethods.pdb
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\TuneMethods\BeesMethods\obj\Debug\BeesMethods.csprojResolveAssemblyReference.cache
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\TuneMethods\BeesMethods\obj\Debug\BeesMethods.dll
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\TuneMethods\BeesMethods\obj\Debug\BeesMethods.pdb
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\BeesMethods.dll.config
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\BeesMethods.dll
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\BeesMethods.pdb
+E:\GPO\mixcore\TuneMethods\BeesMethods\obj\Debug\BeesMethods.csprojResolveAssemblyReference.cache
+E:\GPO\mixcore\TuneMethods\BeesMethods\obj\Debug\BeesMethods.dll
+E:\GPO\mixcore\TuneMethods\BeesMethods\obj\Debug\BeesMethods.pdb

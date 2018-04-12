@@ -1,0 +1,10 @@
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\GUI\Compiled\Methods\Tune\HybrideWrappers.dll
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\GUI\Compiled\Methods\Tune\HybrideWrappers.pdb
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\TuneMethods\HybrideWrappers\obj\Debug\HybrideWrappers.csprojResolveAssemblyReference.cache
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\TuneMethods\HybrideWrappers\obj\Debug\HybrideWrappers.dll
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\TuneMethods\HybrideWrappers\obj\Debug\HybrideWrappers.pdb
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\HybrideWrappers.dll
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\HybrideWrappers.pdb
+E:\GPO\mixcore\TuneMethods\HybrideWrappers\obj\Debug\HybrideWrappers.csprojResolveAssemblyReference.cache
+E:\GPO\mixcore\TuneMethods\HybrideWrappers\obj\Debug\HybrideWrappers.dll
+E:\GPO\mixcore\TuneMethods\HybrideWrappers\obj\Debug\HybrideWrappers.pdb

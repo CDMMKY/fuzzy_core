@@ -1,0 +1,12 @@
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\GUI\Compiled\Methods\Tune\GSA.dll.config
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\GUI\Compiled\Methods\Tune\GSA.dll
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\GUI\Compiled\Methods\Tune\GSA.pdb
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\TuneMethods\GSA\obj\Debug\GSA.dll
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\TuneMethods\GSA\obj\Debug\GSA.pdb
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\TuneMethods\GSA\obj\Debug\GSA.csprojResolveAssemblyReference.cache
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\GSA.dll.config
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\GSA.dll
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\GSA.pdb
+E:\GPO\mixcore\TuneMethods\GSA\obj\Debug\GSA.dll
+E:\GPO\mixcore\TuneMethods\GSA\obj\Debug\GSA.pdb
+E:\GPO\mixcore\TuneMethods\GSA\obj\Debug\GSA.csprojResolveAssemblyReference.cache

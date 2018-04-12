@@ -1,0 +1,5 @@
+E:\GPO\mixcore\Libs\PluralFormsAndGaussRandoms\bin\x64\Debug\Utils.dll
+E:\GPO\mixcore\Libs\PluralFormsAndGaussRandoms\bin\x64\Debug\Utils.pdb
+E:\GPO\mixcore\Libs\PluralFormsAndGaussRandoms\obj\x64\Debug\PuralFormsAndGaussRandom.csprojResolveAssemblyReference.cache
+E:\GPO\mixcore\Libs\PluralFormsAndGaussRandoms\obj\x64\Debug\Utils.dll
+E:\GPO\mixcore\Libs\PluralFormsAndGaussRandoms\obj\x64\Debug\Utils.pdb

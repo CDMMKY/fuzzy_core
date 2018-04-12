@@ -1,0 +1,12 @@
+E:\GPO\mixcore\GUI\Compiled\Mix_core.exe.config
+E:\GPO\mixcore\GUI\Compiled\Mix_core.exe
+E:\GPO\mixcore\GUI\Compiled\Mix_core.pdb
+E:\GPO\mixcore\GUI\FormsBoth\obj\x64\Debug\Mix_project.csprojResolveAssemblyReference.cache
+E:\GPO\mixcore\GUI\FormsBoth\obj\x64\Debug\Mix_core.Forms.FileMultiSelectForm.resources
+E:\GPO\mixcore\GUI\FormsBoth\obj\x64\Debug\Mix_core.Forms.Result_F.resources
+E:\GPO\mixcore\GUI\FormsBoth\obj\x64\Debug\Mix_core.Forms.Start_F.resources
+E:\GPO\mixcore\GUI\FormsBoth\obj\x64\Debug\Mix_core.Forms.universal_conf_form.resources
+E:\GPO\mixcore\GUI\FormsBoth\obj\x64\Debug\Mix_core.Properties.Resources.resources
+E:\GPO\mixcore\GUI\FormsBoth\obj\x64\Debug\Mix_project.csproj.GenerateResource.Cache
+E:\GPO\mixcore\GUI\FormsBoth\obj\x64\Debug\Mix_core.exe
+E:\GPO\mixcore\GUI\FormsBoth\obj\x64\Debug\Mix_core.pdb

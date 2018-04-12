@@ -1,0 +1,12 @@
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\GUI\Compiled\Methods\Init\GSAbin.dll.config
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\GUI\Compiled\Methods\Init\GSAbin.dll
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\GUI\Compiled\Methods\Init\GSAbin.pdb
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\TuneMethods\GSAbin\obj\Debug\GSAbin.dll
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\TuneMethods\GSAbin\obj\Debug\GSAbin.pdb
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\TuneMethods\GSAbin\obj\Debug\GSAbin.csprojResolveAssemblyReference.cache
+E:\GPO\mixcore\GUI\Compiled\Methods\Init\GSAbin.dll.config
+E:\GPO\mixcore\GUI\Compiled\Methods\Init\GSAbin.dll
+E:\GPO\mixcore\GUI\Compiled\Methods\Init\GSAbin.pdb
+E:\GPO\mixcore\TuneMethods\GSAbin\obj\Debug\GSAbin.dll
+E:\GPO\mixcore\TuneMethods\GSAbin\obj\Debug\GSAbin.pdb
+E:\GPO\mixcore\TuneMethods\GSAbin\obj\Debug\GSAbin.csprojResolveAssemblyReference.cache

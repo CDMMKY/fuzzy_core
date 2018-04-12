@@ -1,0 +1,12 @@
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\GUI\Compiled\Methods\Tune\PSOMethods.dll.config
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\GUI\Compiled\Methods\Tune\PSOMethods.dll
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\GUI\Compiled\Methods\Tune\PSOMethods.pdb
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\TuneMethods\PSOMethods\obj\Debug\PSOMethods.csprojResolveAssemblyReference.cache
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\TuneMethods\PSOMethods\obj\Debug\PSOMethods.dll
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\TuneMethods\PSOMethods\obj\Debug\PSOMethods.pdb
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\PSOMethods.dll.config
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\PSOMethods.dll
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\PSOMethods.pdb
+E:\GPO\mixcore\TuneMethods\PSOMethods\obj\Debug\PSOMethods.csprojResolveAssemblyReference.cache
+E:\GPO\mixcore\TuneMethods\PSOMethods\obj\Debug\PSOMethods.dll
+E:\GPO\mixcore\TuneMethods\PSOMethods\obj\Debug\PSOMethods.pdb

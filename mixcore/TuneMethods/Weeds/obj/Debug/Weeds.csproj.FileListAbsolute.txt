@@ -1,0 +1,12 @@
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\GUI\Compiled\Methods\Tune\Weeds.dll.config
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\GUI\Compiled\Methods\Tune\Weeds.dll
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\GUI\Compiled\Methods\Tune\Weeds.pdb
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\TuneMethods\Weeds\obj\Debug\Weeds.dll
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\TuneMethods\Weeds\obj\Debug\Weeds.pdb
+E:\GPO\mixcore-master-61775722f8893ee60305e99d95dc12f8c68fb4a5\TuneMethods\Weeds\obj\Debug\Weeds.csprojResolveAssemblyReference.cache
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\Weeds.dll.config
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\Weeds.dll
+E:\GPO\mixcore\GUI\Compiled\Methods\Tune\Weeds.pdb
+E:\GPO\mixcore\TuneMethods\Weeds\obj\Debug\Weeds.dll
+E:\GPO\mixcore\TuneMethods\Weeds\obj\Debug\Weeds.pdb
+E:\GPO\mixcore\TuneMethods\Weeds\obj\Debug\Weeds.csprojResolveAssemblyReference.cache
