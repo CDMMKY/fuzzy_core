@@ -1,4 +1,4 @@
-﻿using FuzzyCoreUtils;
+using FuzzyCoreUtils;
 using FuzzySystem.FuzzyAbstract;
 using FuzzySystem.FuzzyAbstract.conf;
 using FuzzySystem.FuzzyAbstract.learn_algorithm.conf;
@@ -23,7 +23,7 @@ namespace FuzzySystem.PittsburghClassifier.LearnAlgorithm
         {
             result = Classifier;
             //Узнаем название папки с данными
-            string path_name = "E:\\GPO\\mixcore\\OLD\\Data\\Keel\\Classifier\\KEEL-10\\";
+            string path_name = "../../OLD/Data/Keel/Classifier/KEEL-10/";
             string folder_name = "";
             foreach (var letter in result.LearnSamplesSet.FileName)
             {
@@ -38,8 +38,8 @@ namespace FuzzySystem.PittsburghClassifier.LearnAlgorithm
             List<PCFuzzySystem> results = new List<PCFuzzySystem>();
             for (int i = 0; i < numberOfPopulations; i++)
             {
-                SampleSet new_learn = new SampleSet(path_name + folder_name + "\\" + result.LearnSamplesSet.FileName);
-                SampleSet new_test = new SampleSet(path_name + folder_name + "\\" + result.TestSamplesSet.FileName);
+                SampleSet new_learn = new SampleSet(path_name + folder_name + "/" + result.LearnSamplesSet.FileName);
+                SampleSet new_test = new SampleSet(path_name + folder_name + "/" + result.TestSamplesSet.FileName);
                 results.Add(new PCFuzzySystem(new_learn, new_test));
                 int ground = (int)Math.Round(results[i].LearnSamplesSet.DataRows.Count * 0.25);
                 for (int j = 0; j < ground; j++)
