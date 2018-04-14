@@ -12,7 +12,7 @@ namespace FuzzySystem.PittsburghClassifier.LearnAlgorithm
     {
         protected PCFuzzySystem result;
         protected MBConf Config;
-        protected int voteType;
+        protected int voteType, populInFirstAlg, populInSecondAlg, populInThirdAlg;
         public override PCFuzzySystem TuneUpFuzzySystem(PCFuzzySystem Classify, ILearnAlgorithmConf conf)
         {
             result = Classify;
@@ -21,7 +21,42 @@ namespace FuzzySystem.PittsburghClassifier.LearnAlgorithm
             {
                 case 0:
                     {
-                        Console.WriteLine("Bagging: ");
+                        int i = 0;
+                        List<KnowlegeBasePCRules> populsOfOneAlgorithm = new List<KnowlegeBasePCRules>();
+                        for (int p_i = 0; p_i < populInFirstAlg; p_i++)
+                        {
+                            populsOfOneAlgorithm.Add(result.RulesDatabaseSet[i]);
+                            i++;
+                        }
+                        Console.WriteLine("Bagging First: ");
+                        Console.WriteLine("Обуч: " + Math.Round(result.ClassifyLearnSamplesBagging(populsOfOneAlgorithm), 2));
+                        Console.WriteLine("Тест: " + Math.Round(result.ClassifyTestSamplesBagging(populsOfOneAlgorithm), 2));
+                        populsOfOneAlgorithm.Clear();
+                        if (populInSecondAlg > 0)
+                        {
+                            for (int p_i = 0; p_i < populInSecondAlg; p_i++)
+                            {
+                                populsOfOneAlgorithm.Add(result.RulesDatabaseSet[i]);
+                                i++;
+                            }
+                            Console.WriteLine("Bagging Second: ");
+                            Console.WriteLine("Обуч: " + Math.Round(result.ClassifyLearnSamplesBagging(populsOfOneAlgorithm), 2));
+                            Console.WriteLine("Тест: " + Math.Round(result.ClassifyTestSamplesBagging(populsOfOneAlgorithm), 2));
+                            populsOfOneAlgorithm.Clear();
+                            if (populInThirdAlg > 0)
+                            {
+                                for (int p_i = 0; p_i < populInThirdAlg; p_i++)
+                                {
+                                    populsOfOneAlgorithm.Add(result.RulesDatabaseSet[i]);
+                                    i++;
+                                }
+                                Console.WriteLine("Bagging Third: ");
+                                Console.WriteLine("Обуч: " + Math.Round(result.ClassifyLearnSamplesBagging(populsOfOneAlgorithm), 2));
+                                Console.WriteLine("Тест: " + Math.Round(result.ClassifyTestSamplesBagging(populsOfOneAlgorithm), 2));
+                                populsOfOneAlgorithm.Clear();
+                            }
+                        }
+                        Console.WriteLine("Mixed Bagging: ");
                         Console.WriteLine("Обуч: " + Math.Round(result.ClassifyLearnSamplesBagging(result.RulesDatabaseSet), 2));
                         Console.WriteLine("Тест: " + Math.Round(result.ClassifyTestSamplesBagging(result.RulesDatabaseSet), 2));
                         break;
@@ -62,6 +97,9 @@ namespace FuzzySystem.PittsburghClassifier.LearnAlgorithm
         {
             Config = Conf as MBConf;
             voteType = (int)Config.Тип_голосования;
+            populInFirstAlg = Config.Популяций_от_первого_алгоритма;
+            populInSecondAlg = Config.Популяций_от_второго_алгоритма;
+            populInThirdAlg = Config.Популяций_от_третьего_алгоритма;
         }
     }
 }

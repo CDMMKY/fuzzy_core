@@ -34,5 +34,41 @@ namespace MixBagging.Properties {
                 this["Голосование"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("10")]
+        public int popul_in_first_algorithm {
+            get {
+                return ((int)(this["popul_in_first_algorithm"]));
+            }
+            set {
+                this["popul_in_first_algorithm"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("10")]
+        public int popul_in_second_algorithm {
+            get {
+                return ((int)(this["popul_in_second_algorithm"]));
+            }
+            set {
+                this["popul_in_second_algorithm"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("10")]
+        public int popul_in_third_algorithm {
+            get {
+                return ((int)(this["popul_in_third_algorithm"]));
+            }
+            set {
+                this["popul_in_third_algorithm"] = value;
+            }
+        }
     }
 }

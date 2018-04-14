@@ -102,16 +102,6 @@ namespace FuzzySystem.PittsburghClassifier.LearnAlgorithm
                 Console.WriteLine("Обуч: " + Math.Round(result.ClassifyLearnSamples(Populations[j][0]), 2));
                 Console.WriteLine("Тест: " + Math.Round(result.ClassifyTestSamples(Populations[j][0]), 2));
             }
-            //Создаем ансамбль лучших решений
-            List<KnowlegeBasePCRules> BestPopulation = new List<KnowlegeBasePCRules>();
-            for (int i = 0; i < numberOfPopulations; i++)
-            {
-                BestPopulation.Add(Populations[i][0]);
-            }
-            //Выводим точность классификации ансамбля лучших решений
-            Console.WriteLine("Bagging: ");
-            Console.WriteLine("Обуч: " + Math.Round(result.ClassifyLearnSamplesBagging(BestPopulation), 2));
-            Console.WriteLine("Тест: " + Math.Round(result.ClassifyTestSamplesBagging(BestPopulation), 2));
             //Допобавляем в базу правил лучшие решения
             if (result.RulesDatabaseSet.Count == 1)
             {
