@@ -20,7 +20,7 @@ namespace FuzzySystem.PittsburghClassifier.LearnAlgorithm
             switch (voteType)
             {
                 case 0:
-                    {
+                    { 
                         int i = 0;
                         List<KnowlegeBasePCRules> populsOfOneAlgorithm = new List<KnowlegeBasePCRules>();
                         for (int p_i = 0; p_i < populInFirstAlg; p_i++)
