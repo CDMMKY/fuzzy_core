@@ -55,10 +55,10 @@ namespace FuzzySystem.PittsburghClassifier.LearnAlgorithm
                                 Console.WriteLine("Тест: " + Math.Round(result.ClassifyTestSamplesBagging(populsOfOneAlgorithm), 2));
                                 populsOfOneAlgorithm.Clear();
                             }
+                            Console.WriteLine("Mixed Bagging: ");
+                            Console.WriteLine("Обуч: " + Math.Round(result.ClassifyLearnSamplesBagging(result.RulesDatabaseSet), 2));
+                            Console.WriteLine("Тест: " + Math.Round(result.ClassifyTestSamplesBagging(result.RulesDatabaseSet), 2));
                         }
-                        Console.WriteLine("Mixed Bagging: ");
-                        Console.WriteLine("Обуч: " + Math.Round(result.ClassifyLearnSamplesBagging(result.RulesDatabaseSet), 2));
-                        Console.WriteLine("Тест: " + Math.Round(result.ClassifyTestSamplesBagging(result.RulesDatabaseSet), 2));
                         break;
                     }
             }
