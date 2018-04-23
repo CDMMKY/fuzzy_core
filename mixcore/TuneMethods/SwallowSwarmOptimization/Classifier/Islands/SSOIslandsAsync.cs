@@ -12,7 +12,7 @@ namespace FuzzySystem.PittsburghClassifier.LearnAlgorithm
     class SSOIslandsAsync : AbstractNotSafeLearnAlgorithm
     {
         protected PCFuzzySystem result;
-        protected Random rand = new Random();
+        protected Random rand;
         protected IslandsSSO Config;
         protected int MaxIter, numberOfLocalLeaders, numberOfAimlessParts, numberOfAllParts, numberOfPopulations, changeParts, iter;
         protected double ALocal, BLocal, AGlobal, BGlobal;
@@ -56,7 +56,9 @@ namespace FuzzySystem.PittsburghClassifier.LearnAlgorithm
         }
         public virtual void preIterate(PCFuzzySystem Classify, ILearnAlgorithmConf conf)
         {
-            result = Classify;
+            result = new PCFuzzySystem(Classify.LearnSamplesSet, Classify.TestSamplesSet);
+            result.RulesDatabaseSet.Add(new KnowlegeBasePCRules(Classify.RulesDatabaseSet[0]));
+            rand = new Random();
             //Инициализируем параметры
             Init(conf);
             //Инициализируем и зануляем вектора алгоритма
@@ -64,12 +66,14 @@ namespace FuzzySystem.PittsburghClassifier.LearnAlgorithm
             VelocityVector = new List<KnowlegeBasePCRules>();
             VelocityVectorLL = new List<KnowlegeBasePCRules>();
             VelocityVectorHL = new List<KnowlegeBasePCRules>();
+            SSVector = new List<KnowlegeBasePCRules>();
             for (int i = 0; i < numberOfPopulations; i++)
             {
                 HeadLeader.Add(new KnowlegeBasePCRules(result.RulesDatabaseSet[0]));
                 VelocityVector.Add(new KnowlegeBasePCRules(result.RulesDatabaseSet[0]));
                 VelocityVectorLL.Add(new KnowlegeBasePCRules(result.RulesDatabaseSet[0]));
                 VelocityVectorHL.Add(new KnowlegeBasePCRules(result.RulesDatabaseSet[0]));
+                SSVector.Add(new KnowlegeBasePCRules(result.RulesDatabaseSet[0]));
             }
             for (int p_i = 0; p_i < numberOfPopulations; p_i++)
             {
@@ -119,9 +123,9 @@ namespace FuzzySystem.PittsburghClassifier.LearnAlgorithm
                 for (int p_i = 1; p_i < Populations.Count; p_i++)
                 {
                     KnowlegeBasePCRules tmp_p = new KnowlegeBasePCRules(ParticlesBest[p_i][Populations[p_i][i]]);
-                    ParticlesBest[p_i].Remove(Populations[p_i - 1][i]);
+                    ParticlesBest[p_i - 1].Remove(Populations[p_i - 1][i]);
                     Populations[p_i - 1][i] = new KnowlegeBasePCRules(Populations[p_i][i]);
-                    ParticlesBest[p_i].Add(Populations[p_i - 1][i], tmp_p);
+                    ParticlesBest[p_i - 1].Add(Populations[p_i - 1][i], tmp_p);
                 }
                 ParticlesBest[numberOfPopulations - 1].Remove(Populations[numberOfPopulations - 1][i]);
                 Populations[numberOfPopulations - 1][i] = new KnowlegeBasePCRules(tmp_part);
@@ -130,20 +134,16 @@ namespace FuzzySystem.PittsburghClassifier.LearnAlgorithm
         }
         public virtual void oneIterate()
         {
-            List<Task> AlgTasks = new List<Task>();
-            for (int p_i = 0; p_i < Populations.Count; p_i++)
+            Task[] AlgTasks = new Task[numberOfPopulations];
+            Parallel.For(0, Populations.Count, i =>
             {
-                Task Algtask = new Task(() =>
-                {
-                    Populations[p_i] = ListPittsburgClassifierTool.SortRules(Populations[p_i], result);
-                    SetRoles(Populations[p_i], p_i);
-                    ChangeExplorersPositions(p_i);
-                    ChangeAimlessPositions(p_i);
-                    Populations[p_i] = DiscardRoles(Populations[p_i], p_i);
-                }, TaskCreationOptions.LongRunning);
-                AlgTasks.Add(Algtask);
-                Algtask.Start();
-            }
+                int p_i = i;
+                Populations[p_i] = ListPittsburgClassifierTool.SortRules(Populations[p_i], result);
+                SetRoles(Populations[p_i], p_i);
+                ChangeExplorersPositions(p_i);
+                ChangeAimlessPositions(p_i);
+                Populations[p_i] = DiscardRoles(Populations[p_i], p_i);
+            });
             iter++;
         }
         private List<KnowlegeBasePCRules> SetPopulation(List<KnowlegeBasePCRules> Population)
@@ -333,7 +333,6 @@ namespace FuzzySystem.PittsburghClassifier.LearnAlgorithm
                 ParticlesBest[p_i].Add(temp, tmp);
             }
             ExplorerParticles[p_i][i] = temp;
-
         }
 
         private void ChangeAimlessPositions(int p_i)
