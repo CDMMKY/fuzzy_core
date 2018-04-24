@@ -1,4 +1,4 @@
-﻿#define debug
+#define debug
 #undef debug
 using FuzzySystem.FuzzyAbstract;
 using FuzzySystem.FuzzyAbstract.conf;
@@ -15,7 +15,7 @@ namespace FuzzySystem.SingletoneApproximate.LearnAlgorithm
     public class KrillOptimize : AbstractNotSafeLearnAlgorithm
     {
         protected PCFuzzySystem result;
-        Random rand = new Random();
+        Random rand;
         protected KrillConfig Config;
         protected int Nkrill, iter;
         protected double wn, wf, ct, dmax, nmax, e, Vf;
@@ -24,9 +24,10 @@ namespace FuzzySystem.SingletoneApproximate.LearnAlgorithm
         protected KnowlegeBasePCRules[] Population;
 
         //основные вычисления
-        public override PCFuzzySystem TuneUpFuzzySystem(PCFuzzySystem Approx, ILearnAlgorithmConf conf)
+        public override PCFuzzySystem TuneUpFuzzySystem(PCFuzzySystem Classify, ILearnAlgorithmConf conf)
         {
-            result = Approx;
+            rand = new Random();
+            result = Classify;
             Init(conf);
             SetPopulation();
             KnowlegeBasePCRules BEST = new KnowlegeBasePCRules(result.RulesDatabaseSet[0]);
