@@ -1,4 +1,4 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="RandomMethods.Properties" GeneratedClassName="SettingsBase">
   <Profiles />
   <Settings>
@@ -8,11 +8,11 @@
     <Setting Name="consq_Config_Random_Search_count_generate_by_iteration" Type="System.Int32" Scope="User">
       <Value Profile="(Default)">10</Value>
     </Setting>
-    <Setting Name="Term_Config_Random_Search_count_iteration" Type="System.Int32" Scope="User">
-      <Value Profile="(Default)">100</Value>
+    <Setting Name="count_iterations" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">300</Value>
     </Setting>
-    <Setting Name="Term_Config_Random_Search_count_generate_by_iteration" Type="System.Int32" Scope="User">
-      <Value Profile="(Default)">10</Value>
+    <Setting Name="count_particles" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">40</Value>
     </Setting>
     <Setting Name="Weigths_Config_Random_Search_count_iteration" Type="System.Int32" Scope="User">
       <Value Profile="(Default)">100</Value>

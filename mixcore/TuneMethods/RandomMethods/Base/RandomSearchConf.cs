@@ -1,4 +1,4 @@
-﻿using System.ComponentModel;
+using System.ComponentModel;
 using Settings = RandomMethods.Properties.SettingsBase;
 
 
@@ -7,29 +7,26 @@ namespace FuzzySystem.FuzzyAbstract.conf
     public class RandomSearchConf:ILearnAlgorithmConf
     {
         [DisplayName("Количество итераций")]
-         [Description("Сколько тактов выполниться алгоритм"), Category("Итерации")]
+        [Description("Сколько тактов выполниться алгоритм"), Category("Итерации")]
         public int TRSCCountIteration
         {
-            get { return  Settings.Default.Term_Config_Random_Search_count_iteration; }
-            set { Settings.Default.Term_Config_Random_Search_count_iteration = value; Settings.Default.Save(); }
+            get { return  Settings.Default.count_iterations; }
+            set { Settings.Default.count_iterations = value; Settings.Default.Save(); }
         }
 
-        [DisplayName("Количество генерируемых правил")]
-        [Description("Сколько баз правил сгенерируется за такт"), Category("Итерации")]
-         public int TRSCCountRules
+        [DisplayName("Размер популяции")]
+        [Description("Размер популяции"), Category("Итерации")]
+         public int TRSCCountparticles
          {
-             get { return Settings.Default.Term_Config_Random_Search_count_generate_by_iteration;
-             }
-             set { Settings.Default.Term_Config_Random_Search_count_generate_by_iteration = value;
-             Settings.Default.Save();
-             }
+             get { return Settings.Default.count_particles; }
+             set { Settings.Default.count_particles = value;  Settings.Default.Save(); }
          }
 
         public void loadParams(string param)
         {
             string[] temp = param.Split('}');
             TRSCCountIteration = Extention.getParamValueInt(temp, "TRSCCountIteration");
-            TRSCCountRules = Extention.getParamValueInt(temp, "TRSCCountRules");
+            TRSCCountparticles = Extention.getParamValueInt(temp, "TRSCCountRules");
 
         }
 

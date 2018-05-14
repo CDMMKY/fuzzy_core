@@ -65,8 +65,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Approx\ConfigRandomSearch.cs" />
-    <Compile Include="Approx\TakagiSugeno\ConfigRandomSearch.cs" />
     <Compile Include="Classifier\RandomSearch.cs" />
     <Compile Include="Classifier\WeigthsConfigRandomSearch.cs" />
     <Compile Include="Base\WeigthsRandomSearchConfig.cs" />
