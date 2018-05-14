@@ -9,3 +9,4 @@ E:\GPO\mixcore\GUI\Compiled\Methods\Tune\GSA.dll
 E:\GPO\mixcore\GUI\Compiled\Methods\Tune\GSA.pdb
 E:\GPO\mixcore\TuneMethods\GSA\obj\Debug\GSA.dll
 E:\GPO\mixcore\TuneMethods\GSA\obj\Debug\GSA.pdb
+E:\GPO\mixcore\TuneMethods\GSA\obj\Debug\GSA.csprojResolveAssemblyReference.cache

@@ -9,3 +9,4 @@ E:\GPO\mixcore\GUI\Compiled\Methods\Init\GreedyChoice.dll
 E:\GPO\mixcore\GUI\Compiled\Methods\Init\GreedyChoice.pdb
 E:\GPO\mixcore\InitMethods\GreedyChoice\obj\Debug\GreedyChoice.dll
 E:\GPO\mixcore\InitMethods\GreedyChoice\obj\Debug\GreedyChoice.pdb
+E:\GPO\mixcore\InitMethods\GreedyChoice\obj\Debug\GreedyChoice.csprojResolveAssemblyReference.cache

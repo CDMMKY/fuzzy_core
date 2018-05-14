@@ -9,3 +9,4 @@ E:\GPO\mixcore\GUI\Compiled\Methods\Tune\GeneticAlgorithmTune.dll
 E:\GPO\mixcore\GUI\Compiled\Methods\Tune\GeneticAlgorithmTune.pdb
 E:\GPO\mixcore\TuneMethods\GeneticAlgorithmTune\obj\Debug\GeneticAlgorithmTune.dll
 E:\GPO\mixcore\TuneMethods\GeneticAlgorithmTune\obj\Debug\GeneticAlgorithmTune.pdb
+E:\GPO\mixcore\TuneMethods\GeneticAlgorithmTune\obj\Debug\GeneticAlgorithmTune.csprojResolveAssemblyReference.cache

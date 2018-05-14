@@ -5,15 +5,13 @@ using FuzzySystem.FuzzyAbstract.conf;
 using FuzzySystem.FuzzyAbstract.learn_algorithm.conf;
 using FuzzyCoreUtils;
 using System.Linq;
-using System.IO;
-using System.Text;
 
 namespace FuzzySystem.PittsburghClassifier.LearnAlgorithm
 {
     public class SSODiscr : AbstractNotSafeLearnAlgorithm
     {
         protected PCFuzzySystem result;
-        Random rand;
+        Random rand = new Random();
         protected ConfigSSO Config;
         protected bool shrink_features;
         protected int MaxIter, numberOfLocalLeaders, numberOfAimlessParts, numberOfAllParts, numberOfParametrs, numberOfFeatures;
@@ -37,7 +35,6 @@ namespace FuzzySystem.PittsburghClassifier.LearnAlgorithm
             }
             numberOfFeatures = result.CountFeatures;
             Init(conf);
-            rand = new Random();
             HeadLeader = new bool[numberOfFeatures];
             VelocityVector = new bool[numberOfFeatures];
             VelocityVectorLL = new bool[numberOfFeatures];
@@ -66,24 +63,17 @@ namespace FuzzySystem.PittsburghClassifier.LearnAlgorithm
 
             SortPopulation();
 
-            int count_ones = 0;
             result.AcceptedFeatures = Population[0];
             for (int j = 0; j < Population[0].Length; j++)
             {
                 if (Population[0][j])
-                {
                     Console.Write("1 ");
-                    count_ones++;
-                }
                 else
                     Console.Write("0 ");
             }
             Console.WriteLine();
             Console.WriteLine("Обуч: " + Math.Round(result.ClassifyLearnSamples(result.RulesDatabaseSet[0]), 2));
             Console.WriteLine("Тест: " + Math.Round(result.ClassifyTestSamples(result.RulesDatabaseSet[0]), 2));
-            File.AppendAllText("E:/TUSUR/GPO/Эксперименты/Behavior/SSODiscret" + folder_name + ".txt", "Признаки: " + count_ones + Environment.NewLine);
-            File.AppendAllText("E:/TUSUR/GPO/Эксперименты/Behavior/SSODiscret" + folder_name + ".txt", "Тест: " + Math.Round(result.ClassifyTestSamples(result.RulesDatabaseSet[0]), 2) + Environment.NewLine);
-            File.AppendAllText("E:/TUSUR/GPO/Эксперименты/Behavior/SSODiscret" + folder_name + ".txt", "Время: " + Environment.NewLine);
             return result;
         }
 

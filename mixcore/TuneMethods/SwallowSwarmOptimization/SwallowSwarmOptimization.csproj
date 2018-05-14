@@ -50,7 +50,6 @@
     <Compile Include="Base\ProbDistrConf.cs" />
     <Compile Include="Classifier\FeatureSelection\ProbDistr.cs" />
     <Compile Include="Classifier\Bagging\SSOBaggingClassifier.cs" />
-    <Compile Include="Classifier\FeatureSelection\RandomSearch.cs" />
     <Compile Include="Classifier\Islands\SSOIslands.cs" />
     <Compile Include="Classifier\SSOClassifier.cs" />
     <Compile Include="Classifier\FeatureSelection\SSODiscret.cs" />

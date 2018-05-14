@@ -9,3 +9,4 @@ E:\GPO\mixcore\GUI\Compiled\Methods\Tune\RecursiveLeastSquares.dll
 E:\GPO\mixcore\GUI\Compiled\Methods\Tune\RecursiveLeastSquares.pdb
 E:\GPO\mixcore\TuneMethods\RecursiveLeastSquares\obj\Debug\RecursiveLeastSquares.dll
 E:\GPO\mixcore\TuneMethods\RecursiveLeastSquares\obj\Debug\RecursiveLeastSquares.pdb
+E:\GPO\mixcore\TuneMethods\RecursiveLeastSquares\obj\Debug\RecursiveLeastSquares.csprojResolveAssemblyReference.cache

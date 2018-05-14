@@ -9,3 +9,4 @@ E:\GPO\mixcore\GUI\Compiled\Methods\Tune\WaterCycleAlgorithm.dll
 E:\GPO\mixcore\GUI\Compiled\Methods\Tune\WaterCycleAlgorithm.pdb
 E:\GPO\mixcore\TuneMethods\WaterCycleAlgorithm\obj\Debug\WaterCycleAlgorithm.dll
 E:\GPO\mixcore\TuneMethods\WaterCycleAlgorithm\obj\Debug\WaterCycleAlgorithm.pdb
+E:\GPO\mixcore\TuneMethods\WaterCycleAlgorithm\obj\Debug\WaterCycleAlgorithm.csprojResolveAssemblyReference.cache

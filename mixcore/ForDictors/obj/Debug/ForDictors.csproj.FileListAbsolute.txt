@@ -7,3 +7,4 @@ E:\GPO\mixcore\GUI\Compiled\Methods\Tune\ForDictors.dll
 E:\GPO\mixcore\GUI\Compiled\Methods\Tune\ForDictors.pdb
 E:\GPO\mixcore\ForDictors\obj\Debug\ForDictors.dll
 E:\GPO\mixcore\ForDictors\obj\Debug\ForDictors.pdb
+E:\GPO\mixcore\ForDictors\obj\Debug\ForDictors.csprojResolveAssemblyReference.cache

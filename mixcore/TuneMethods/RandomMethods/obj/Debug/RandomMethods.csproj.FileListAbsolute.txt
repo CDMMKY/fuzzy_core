@@ -9,3 +9,4 @@ E:\GPO\mixcore\GUI\Compiled\Methods\Tune\RandomMethods.dll
 E:\GPO\mixcore\GUI\Compiled\Methods\Tune\RandomMethods.pdb
 E:\GPO\mixcore\TuneMethods\RandomMethods\obj\Debug\RandomMethods.dll
 E:\GPO\mixcore\TuneMethods\RandomMethods\obj\Debug\RandomMethods.pdb
+E:\GPO\mixcore\TuneMethods\RandomMethods\obj\Debug\RandomMethods.csprojResolveAssemblyReference.cache
