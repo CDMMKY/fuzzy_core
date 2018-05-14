@@ -6,4 +6,3 @@ E:\GPO\mixcore\Libs\ConfigPropertyGridUtils\bin\Debug\ConfigPropertyGridUtils.dl
 E:\GPO\mixcore\Libs\ConfigPropertyGridUtils\bin\Debug\ConfigPropertyGridUtils.pdb
 E:\GPO\mixcore\Libs\ConfigPropertyGridUtils\obj\Debug\ConfigPropertyGridUtils.dll
 E:\GPO\mixcore\Libs\ConfigPropertyGridUtils\obj\Debug\ConfigPropertyGridUtils.pdb
-E:\GPO\mixcore\Libs\ConfigPropertyGridUtils\obj\Debug\ConfigPropertyGridUtils.csprojResolveAssemblyReference.cache

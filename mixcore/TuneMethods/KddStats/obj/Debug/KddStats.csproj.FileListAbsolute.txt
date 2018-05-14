@@ -7,4 +7,3 @@ E:\GPO\mixcore\GUI\Compiled\Methods\Tune\KddStats.dll
 E:\GPO\mixcore\GUI\Compiled\Methods\Tune\KddStats.pdb
 E:\GPO\mixcore\TuneMethods\KddStats\obj\Debug\KddStats.dll
 E:\GPO\mixcore\TuneMethods\KddStats\obj\Debug\KddStats.pdb
-E:\GPO\mixcore\TuneMethods\KddStats\obj\Debug\KddStats.csprojResolveAssemblyReference.cache

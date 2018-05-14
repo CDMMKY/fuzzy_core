@@ -27,7 +27,6 @@ namespace FuzzySystem.PittsburghClassifier.LearnAlgorithm
         public override PCFuzzySystem TuneUpFuzzySystem(PCFuzzySystem Classify, ILearnAlgorithmConf conf)
         {
             result = Classify;
-            string path_name = "../../OLD/Data/Keel/Classifier/KEEL-10/";
             string folder_name = "";
             foreach (var letter in result.LearnSamplesSet.FileName)
             {

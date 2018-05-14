@@ -157,14 +157,14 @@ namespace FuzzySystem.PittsburghClassifier.LearnAlgorithm
         {
             if (with_param)
             {
-                string result = "Random Search{";
+                string result = "Случайный поиск{";
                 // result+= param1+Environment.NewLine;
                 // result+= param1+Environment.NewLine;
                 // result+= param1+Environment.NewLine;
                 result += "}";
                 return result;
             }
-            return "Random Search";
+            return "Случайный поиск";
         }
     }
 }

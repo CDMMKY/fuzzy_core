@@ -9,4 +9,3 @@ E:\GPO\mixcore\GUI\Compiled\Methods\Tune\KrillHerd.dll
 E:\GPO\mixcore\GUI\Compiled\Methods\Tune\KrillHerd.pdb
 E:\GPO\mixcore\TuneMethods\KrillHerd\obj\Debug\KrillHerd.dll
 E:\GPO\mixcore\TuneMethods\KrillHerd\obj\Debug\KrillHerd.pdb
-E:\GPO\mixcore\TuneMethods\KrillHerd\obj\Debug\KrillHerd.csprojResolveAssemblyReference.cache
