@@ -28,7 +28,7 @@ namespace FuzzySystem.SingletoneApproximate.LearnAlgorithm
             Init(conf);
             SetPopulation();
             bool[] BEST = result.AcceptedFeatures;
-            double bestError = result.ClassifyLearnSamples(result.RulesDatabaseSet[0]);
+            double bestError = result.ErrorLearnSamples(result.RulesDatabaseSet[0]);
             //отчистка консоли
             Dictionary<bool[], double> PopulationWithAccuracy = new Dictionary<bool[], double>();
             double accuracy = 0;
@@ -39,7 +39,7 @@ namespace FuzzySystem.SingletoneApproximate.LearnAlgorithm
                 for (int i = 0; i < Population.Count; i++)
                 {
                     result.AcceptedFeatures = Population[i];
-                    accuracy = result.ClassifyLearnSamples(result.RulesDatabaseSet[0]);
+                    accuracy = result.ErrorLearnSamples(result.RulesDatabaseSet[0]);
                     PopulationWithAccuracy.Add(Population[i], accuracy);
                 }
                 Population.Clear();
@@ -54,7 +54,7 @@ namespace FuzzySystem.SingletoneApproximate.LearnAlgorithm
                 for (int i = 0; i < Population.Count; i++)
                 {
                     result.AcceptedFeatures = Population[i];
-                    K[i] = result.ClassifyLearnSamples(result.RulesDatabaseSet[0]);
+                    K[i] = result.ErrorLearnSamples(result.RulesDatabaseSet[0]);
                     sumK += K[i];
                 }
                 avK = sumK / K.Length;
@@ -263,7 +263,7 @@ namespace FuzzySystem.SingletoneApproximate.LearnAlgorithm
                 for (int i = 0; i < Population.Count; i++)
                 {
                     result.AcceptedFeatures = Population[i];
-                    double temp = result.ClassifyLearnSamples(result.RulesDatabaseSet[0]);
+                    double temp = result.ErrorLearnSamples(result.RulesDatabaseSet[0]);
                     
                     if (temp < bestError)
                     {
@@ -287,8 +287,9 @@ namespace FuzzySystem.SingletoneApproximate.LearnAlgorithm
                 else
                     Console.Write("1 ");
             }
-            Console.WriteLine(result.ClassifyLearnSamples(result.RulesDatabaseSet[0]));
-            Console.WriteLine(result.ClassifyTestSamples(result.RulesDatabaseSet[0]));
+            Console.WriteLine();
+            Console.WriteLine(result.ErrorLearnSamples(result.RulesDatabaseSet[0]));
+            Console.WriteLine(result.ErrorTestSamples(result.RulesDatabaseSet[0]));
             return result;
         }
 
