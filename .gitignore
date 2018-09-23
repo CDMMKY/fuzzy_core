@@ -1,5 +1,9 @@
 /mixcore/GUI/compiled/FS/*.ufs
 /mixcore/GUI/compiled/logs/*.txt
+*.pdb
+*.dll
+*.cache
+*.Cache
 *.dat
 *.suo
 *.user

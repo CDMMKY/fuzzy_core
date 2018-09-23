@@ -1,4 +1,4 @@
-﻿using FuzzySystem.FuzzyAbstract;
+using FuzzySystem.FuzzyAbstract;
 using FuzzySystem.FuzzyAbstract.conf;
 using FuzzySystem.FuzzyAbstract.learn_algorithm.conf;
 using System;
@@ -13,7 +13,7 @@ namespace FuzzySystem.SingletoneApproximate.LearnAlgorithm
     public class DisKrillHerd : AbstractNotSafeLearnAlgorithm
     {
         protected PCFuzzySystem result;
-        Random rand = new Random();
+        Random rand;
         protected KrillConfig Config;
         protected int Nkrill, iter;
         protected double wn, wf, ct, dmax, nmax, e, Vf;
@@ -21,13 +21,14 @@ namespace FuzzySystem.SingletoneApproximate.LearnAlgorithm
         protected List<bool[]> Population;
 
         //основные вычисления
-        public override PCFuzzySystem TuneUpFuzzySystem(PCFuzzySystem Approx, ILearnAlgorithmConf conf)
+        public override PCFuzzySystem TuneUpFuzzySystem(PCFuzzySystem Classify, ILearnAlgorithmConf conf)
         {
-            result = Approx;
+            result = Classify;
+            rand = new Random();
             Init(conf);
             SetPopulation();
-            bool[] BEST = new bool[result.CountFeatures];
-            double bestError = AICLearnSamples(result.RulesDatabaseSet[0]);
+            bool[] BEST = result.AcceptedFeatures;
+            double bestError = result.ErrorLearnSamples(result.RulesDatabaseSet[0]);
             //отчистка консоли
             Dictionary<bool[], double> PopulationWithAccuracy = new Dictionary<bool[], double>();
             double accuracy = 0;
@@ -38,7 +39,7 @@ namespace FuzzySystem.SingletoneApproximate.LearnAlgorithm
                 for (int i = 0; i < Population.Count; i++)
                 {
                     result.AcceptedFeatures = Population[i];
-                    accuracy = result.ClassifyLearnSamples(result.RulesDatabaseSet[0]);
+                    accuracy = result.ErrorLearnSamples(result.RulesDatabaseSet[0]);
                     PopulationWithAccuracy.Add(Population[i], accuracy);
                 }
                 Population.Clear();
@@ -53,18 +54,8 @@ namespace FuzzySystem.SingletoneApproximate.LearnAlgorithm
                 for (int i = 0; i < Population.Count; i++)
                 {
                     result.AcceptedFeatures = Population[i];
-                    K[i] = AICLearnSamples(result.RulesDatabaseSet[0]);
+                    K[i] = result.ErrorLearnSamples(result.RulesDatabaseSet[0]);
                     sumK += K[i];
-                    //                    if (double.IsNaN(K[i]) || double.IsInfinity(K[i]))
-                    //                    {
-                    //                        result.UnlaidProtectionFix(Population[i]);
-                    //                        K[i] = AICLearnSamples(Population[i]);
-
-                    //#if debug
-                    //                        Console.Write("Значние  K[i2] = ");
-                    //                        Console.WriteLine(K[i]);
-                    //#endif
-                    //                    }
                 }
                 avK = sumK / K.Length;
                 bool[] KDis = new bool[result.CountFeatures];
@@ -272,7 +263,7 @@ namespace FuzzySystem.SingletoneApproximate.LearnAlgorithm
                 for (int i = 0; i < Population.Count; i++)
                 {
                     result.AcceptedFeatures = Population[i];
-                    double temp = AICLearnSamples(result.RulesDatabaseSet[0]);
+                    double temp = result.ErrorLearnSamples(result.RulesDatabaseSet[0]);
                     
                     if (temp < bestError)
                     {
@@ -288,6 +279,7 @@ namespace FuzzySystem.SingletoneApproximate.LearnAlgorithm
                     Console.WriteLine(bestError);
                 }
             }
+            result.AcceptedFeatures = BEST;
             for (int i = 0; i < result.AcceptedFeatures.Length; i++)
             {
                 if (result.AcceptedFeatures[i] == false)
@@ -296,20 +288,8 @@ namespace FuzzySystem.SingletoneApproximate.LearnAlgorithm
                     Console.Write("1 ");
             }
             Console.WriteLine();
-            for (int i = 0; i < Population.Count; i++)
-            {
-                result.AcceptedFeatures = Population[i];
-                accuracy = result.ClassifyLearnSamples(result.RulesDatabaseSet[0]);
-                PopulationWithAccuracy.Add(Population[i], accuracy);
-            }
-            Population.Clear();
-            foreach (var pair in PopulationWithAccuracy.OrderByDescending(pair => pair.Value))
-            {
-                Population.Add(pair.Key);
-            }
-
-            result.AcceptedFeatures = BEST;
-
+            Console.WriteLine(result.ErrorLearnSamples(result.RulesDatabaseSet[0]));
+            Console.WriteLine(result.ErrorTestSamples(result.RulesDatabaseSet[0]));
             return result;
         }
 
@@ -326,19 +306,6 @@ namespace FuzzySystem.SingletoneApproximate.LearnAlgorithm
                 else
                     return true;
             }
-        }
-
-        private double AICLearnSamples(KnowlegeBasePCRules Source)
-        {
-            int CountFeatures = 0;
-            for (int i = 0; i < result.AcceptedFeatures.Length; i++)
-            {
-                if (result.AcceptedFeatures[i] == true)
-                {
-                    CountFeatures += 1;
-                }
-            }
-            return (Math.Log(result.ErrorLearnSamples(Source) / 100) + ((0.5 * 2 * result.CountClass * CountFeatures) / (result.LearnSamplesSet.DataRows.Count / 2)));
         }
 
         public virtual void Init(ILearnAlgorithmConf Conf)
